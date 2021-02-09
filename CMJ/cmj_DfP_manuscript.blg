@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: cmj_DfP_manuscript.aux
+The style file: cmj.bst
+Database file #1: diss_bib.bib
+Warning--entry type for "Gibbons2019" isn't style-file defined
+--line 1808 of file diss_bib.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty pages in Fyans:2012
+Warning--empty pages in Harrison2007
+Warning--missing publisher in os-mapping-2002
+Warning--missing publisher in cmj-mapping-2014
+Warning--empty pages in Young2015a
+You've used 66 entries,
+            3211 wiz_defined-function locations,
+            1071 strings with 16374 characters,
+and the built_in function-call counts, 41665 in all, are:
+= -- 3588
+> -- 1795
+< -- 75
++ -- 766
+- -- 456
+* -- 2807
+:= -- 6207
+add.period$ -- 325
+call.type$ -- 66
+change.case$ -- 475
+chr.to.int$ -- 77
+cite$ -- 71
+duplicate$ -- 3063
+empty$ -- 3061
+format.name$ -- 640
+if$ -- 8589
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 556
+newline$ -- 337
+num.names$ -- 274
+pop$ -- 1341
+preamble$ -- 1
+purify$ -- 410
+quote$ -- 0
+skip$ -- 1384
+stack$ -- 0
+substring$ -- 1957
+swap$ -- 1563
+text.length$ -- 26
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 561
+warning$ -- 5
+while$ -- 327
+width$ -- 0
+write$ -- 859
+(There were 6 warnings)
