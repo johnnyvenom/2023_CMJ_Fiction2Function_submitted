@@ -34,6 +34,8 @@
 \usepackage{anonymize} 		% Uncomment this line to publish
 % \usepackage[blind]{anonymize}   %Uncomment this line for blind review
 
+% \usepackage[firstpageonly=true, scale=1, colorspec=0.85]{draftwatermark} % draft watermark
+
 \usepackage{enumitem}           % controls list spacing
 \usepackage{longtable}
 \usepackage{supertabular}
@@ -111,11 +113,11 @@
 
 
 \begin{abstract}
-Insert abstract here, typically about 150--200 words. Officia irure enim deserunt ea sunt proident cupidatat. Esse anim labore esse culpa et incididunt qui. Fugiat nostrud ullamco exercitation anim. Qui aliqua consequat elit Lorem. Nulla aute nisi sint nostrud tempor. Cillum nostrud non esse in proident nostrud labore minim do excepteur velit sunt ad. Consequat qui adipisicing est exercitation. Veniam do tempor qui ipsum sint tempor ex qui ullamco aliquip reprehenderit enim mollit. Nisi cupidatat magna ea excepteur sunt proident duis deserunt laborum non laboris laborum ad. Do ad culpa proident aliquip. Ipsum do consectetur qui laborum cillum. Et nulla velit quis eu culpa dolor ipsum reprehenderit id laborum officia. Ut quis dolore aute veniam est laborum incididunt laboris aliqua mollit commodo tempor do ex. Minim aliquip esse nostrud dolore consectetur ut laborum fugiat cupidatat exercitation quis ea excepteur. Mollit ex magna deserunt mollit et ut deserunt. Eu officia eiusmod aliquip tempor ipsum sit deserunt quis sunt qui est officia duis ipsum. Elit nostrud laboris aliqua et.
+This paper introduces a set of workshops held with expert musicians to imagine novel musical instruments through design fiction. The workshops were based on the Magic Machine workshops developed by Kristina Andersen, in which participants crafted non-functional prototypes of instruments they would want to use in their own performance practice. Through in-situ activities and post-workshop thematic analysis, a set of design specifications were developed that can be applied to the design of new digital musical instruments intended for use in real-world artistic practice. In addition to generating tangible elements for design, the theories and methods utilized, based in human-computer interaction and human-centered design, are offered as a possible model for merging imaginative idea generation with functional design outputs. 
 
 \end{abstract}
 
-\section{<<BEGIN ARTICLE>>}
+% \section{<<BEGIN ARTICLE>>}
 
 % \section{Introduction}
 
@@ -385,18 +387,16 @@ The Design for Performance workshop was reviewed and approved by the Research Et
 \subsection{Workshop activities}
 \label{ch3-sec:workshop-activities}
 
-The two workshop sessions followed the same detailed schedule and script
-% (included in Appendix \ref{axC-sec:schedule-and-script})
-that was drafted based on Andersen's recommendations to run the workshop at a quick pace and keep a tight timeline. This was found to be an effective strategy to alleviate any potential anxieties or fears of failure that participants could experience during the creative and open-ended design activities \citep{Andersen2017}. 
+A schedule for the workshop had been developed based on Andersen's recommendations to run the workshop at a quick pace and keep a tight timeline. This was found to be an effective strategy to alleviate any potential anxieties or fears of failure that participants could experience during the creative and open-ended design activities \citep{Andersen2017}. The sessions were held on consecutive days in a spacious and well lit conference room at the \anonymize{Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT) at McGill Universtity}. Tables were arranged together so that participants sat around the outside facing each other. Crafting materials were arranged on a separate table and covered with a cloth when the participants arrived. 
 
-The sessions were held on consecutive days in a spacious and well lit conference room at the \anonymize{Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT) at McGill Universtity}. Tables were arranged together so that participants sat around the outside facing each other. Crafting materials were arranged on a separate table and covered with a cloth when the participants arrived. The first author acted as the facilitator and was aided by the same assistant from the pilot session. 
+The first author acted as the facilitator and was aided by the same assistant from the pilot session. Each session began with a welcome and introduction by the facilitator, then participants were asked to briefly introduced themselves and give a short summary of their musical practice and experience with DMIs. 
 
 % \subsubsection{Introduction}
 % \label{ch3-sec:introduction}
 
 % Before starting the workshop activities participants were asked to read and sign an information and consent form that outlined how the workshop would run and explained their rights as participants. Permission was requested for video and audio recording the sessions, as well as for taking photos, to which all participants agreed.
 
-Each session began with a welcome and introduction by the facilitator. Participants were asked to briefly introduced themselves and give a short summary of their musical practice, as well as any interest or experience they had in instrument design. 
+% Each session began with a welcome and introduction by the facilitator. Participants were asked to briefly introduced themselves and give a short summary of their musical practice, as well as any interest or experience they had in instrument design. 
 
 % The workshop began with the facilitator introducing themselves and the assistant, and giving additional context and background about the workshop and related research. Then participants went around the room and introduced themselves and gave a short summary of their musical practice, as well as any interest or experience they had in instrument design. Finally, the facilitator presented five guidelines to establish the intended mood for the ensuing activities: 
 
@@ -411,10 +411,13 @@ Each session began with a welcome and introduction by the facilitator. Participa
 \subsubsection{Activity 1: Prompt}
 \label{ch3-sec:activity-1-prompt}
 
-The workshop activities began with a prompt. Participants were asked to think of the music that currently make or would like to make, and then instructed to ``draw the music'' on an index card in front of them with a permanent marker. They were given two minutes to complete the activity, after which the workshop moved directly on to the next activity. In the Magic Machine version the drawing is made on the participant's own hand, however this was opposed in the pilot so the drawing was moved to an index card instead.
+The workshop activities began with a prompt. Participants were asked to think of the music that currently make or would like to make, and then instructed to ``draw the music'' on an index card in front of them with a permanent marker. They were given two minutes to complete the activity, after which the workshop moved directly on to the next activity.
+% In the Magic Machine version the drawing is made on the participant's own hand, however this was opposed in the pilot so the drawing was moved to an index card instead.
 % Prompts and icebreakers are commonly used in workshop settings to initiate a session, putting the participants at ease and orienting them to the problem at hand. 
 
-Andersen stipulates two important functions that this activity serves. First, it provides the specific context for the workshop focus. In this case, the focus is on designing new musical instruments, therefore drawing the participants' attention to making music in novel and unexpected ways (as suggested by the inherent absurdity of \emph{drawing} music) serves as a primer for the task at hand. Second, the short activity serves as a preliminary task to complete, ``an initial goal\ldots that tests competence and establishes confidence, acting as an on-ramp to an experience'' \citep[p. 5]{Andersen2019}. This eases the transition into to the more substantial design activity that follows, as one creative task has already been completed. 
+Andersen stipulates two important functions that this activity serves. First, it provides the specific context for the workshop focus. 
+% In this case, the focus is on designing new musical instruments, therefore 
+Drawing the participants' attention to making music in novel and unexpected ways (as suggested by the inherent absurdity of \emph{drawing} music) oriented focus to thinking creatively about instruments and performance. Second, the short activity serves as a preliminary task to complete, ``an initial goal\ldots that tests competence and establishes confidence, acting as an on-ramp to an experience'' \citep[p. 5]{Andersen2019}. This eases the transition into to the more substantial design activity that follows, as one creative task has already been completed. 
 %Furthermore, any pressures or anxieties that may arise around perceived value or quality in participants' creative outputs are minimized by the short time frame they are given to create their drawings. 
 
 \subsubsection{Activity 2: Crafting non-functional prototypes}
@@ -424,6 +427,31 @@ In this main activity of the workshop, ``the content of the prompt must be trans
 
 Participants were directed to construct an instrument with which they could play the music they had drawn, using the provided crafting materials. The facilitator emphasized that they were to build \emph{non-functional} (and non-sounding) prototypes, and that they should not select or utilize materials for their acoustic properties, nor should they be concerned with technical feasibility. The groups were given 30 minutes to complete the activity. Figure \ref{ch3-fig:instrument-building} shows the groups building their prototypes.
 
+\begin{figure}[t]
+    \centering
+    \begin{subfigure}[]{1\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{ch3_dfp_nfp_A.jpg}
+        \caption{Session A.}
+        % \label{ch3-fig:keybox-cad}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[]{0.59\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{ch3_dfp_nfp_B.jpg}
+        \caption{Session B.}
+        % \label{ch3-fig:stringbox-cad}
+    \end{subfigure}
+    \begin{subfigure}[]{0.4\textwidth}
+        \centering
+        \includegraphics[width=1\textwidth]{ch3_dfp_nfp_B_P4.jpg}
+        \caption{Participant P04 in Session B.}
+        % \label{ch3-fig:tapbox-cad}
+    \end{subfigure}
+    \caption[Design for Performance workshop: Activity 2 - Non-functional prototyping]{Participants crafting non-functional instrument prototypes in Activity 2.}
+    \label{ch3-fig:instrument-building}
+\end{figure}
+
 % The following instructions were given to introduce the activity:
 
 % \begin{itemize}[noitemsep]
@@ -431,12 +459,12 @@ Participants were directed to construct an instrument with which they could play
 %     \item Bear in mind that you are building \emph{non-functional} prototypes. Your instruments do not need to sound and, specifically, you should not select or utilize materials for their acoustic properties, nor should you be concerned with technical feasibility. 
 % \end{itemize}
 
-To assist the participants in developing their ideas into tangible designs, we introduced an informal list of eight considerations to refer to while building their instruments, which were written on a large whiteboard. The considerations are divided into \emph{high-level} operational qualities and general characteristics that could describe the instrument's intended use, and \emph{low-level} essential features and fundamental components of the design: 
+To assist the participants in developing their ideas into tangible designs, we introduced an informal list of eight considerations to refer to while building their instruments, which were written on a large whiteboard. The considerations are divided into \emph{high-level} operational qualities and general characteristics that could describe the instrument's intended use (\emph{functionality}, \emph{playability}, \emph{musicality}, \emph{performance context}), and \emph{low-level} essential features and fundamental components of the design (\emph{physical form and ergonomics}, \emph{interaction methods}, \emph{sound production}, \emph{feedback}).
 
-\begin{itemize}[noitemsep]
-    \item \textbf{Operational qualities:} \emph{functionality}, \emph{playability}, \emph{musicality}, \emph{performance context}. 
-    \item \textbf{Design features and fundamental components:} \emph{physical form and ergonomics}, \emph{interaction methods}, \emph{sound production}, \emph{feedback}
-\end{itemize}
+% \begin{itemize}[noitemsep]
+%     \item \textbf{Operational qualities:} \emph{functionality}, \emph{playability}, \emph{musicality}, \emph{performance context}. 
+%     \item \textbf{Design features and fundamental components:} \emph{physical form and ergonomics}, \emph{interaction methods}, \emph{sound production}, \emph{feedback}
+% \end{itemize}
 
 While some of the considerations can be classified as functional and non-functional requirements (as defined by requirements engineering \citep{Glinz2007} and commonly employed in systems design), it is important to point out that these elements were empirically chosen based on our own prior knowledge and experience in DMI design, and left open-ended to provide helpful points of reference through the activity. 
 % The considerations were presented along with their descriptions before the activity began, then written on a large whiteboard while the participants worked.
@@ -493,46 +521,21 @@ While some of the considerations can be classified as functional and non-functio
 
 % The participants were initially given 25 minutes to complete the activity (pictured in Figure \ref{ch3-fig:instrument-building}), though extra time could be allotted if desired. In both sessions, five extra minutes were added, making the total length of the activity 30 minutes. 
 
-\begin{figure}[htbp]
-    \centering
-    \begin{subfigure}[]{1\textwidth}
-        \centering
-        \includegraphics[width=1\textwidth]{ch3_dfp_nfp_A.jpg}
-        \caption{Session A.}
-        % \label{ch3-fig:keybox-cad}
-    \end{subfigure}
-    \par\bigskip
-    \begin{subfigure}[]{0.59\textwidth}
-        \centering
-        \includegraphics[width=1\textwidth]{ch3_dfp_nfp_B.jpg}
-        \caption{Session B.}
-        % \label{ch3-fig:stringbox-cad}
-    \end{subfigure}
-    \begin{subfigure}[]{0.4\textwidth}
-        \centering
-        \includegraphics[width=1\textwidth]{ch3_dfp_nfp_B_P4.jpg}
-        \caption{Participant P04 in Session B.}
-        % \label{ch3-fig:tapbox-cad}
-    \end{subfigure}
-    \caption[Design for Performance workshop: Activity 2 - Non-functional prototyping]{Participants crafting non-functional instrument prototypes in Activity 2.}
-    \label{ch3-fig:instrument-building}
-\end{figure}
 
-
-\subsubsection{Activity 3: Presentations}
+\subsubsection{Activity 3: Presentations and key element identification}
 \label{ch3-sec:activity-3-presentations}
 
-Following the construction, each participant gave a three minute presentation of their instrument. They began with a description of the music drawn on their index card, then an presentation and demonstration of their instrument. Following suggestions made after the pilot test, participants were encouraged to explain the links between the music on their index cards and the instruments, which helped to orient the presentations on the imagined outcomes, rather than the technical details of the fabricated designs. A two minute group discussion followed each presentation. 
+Following the construction, each participant gave a three minute presentation of their instrument. They began with a description of the music they had drawn, then described and demonstrated their instrument. The participants were encouraged to explain the links between the music on their index cards and the instruments, which helped to orient the presentations on the imagined outcomes rather than the technical details of the fabricated designs. A two minute group discussion followed each presentation. 
 
-An additional activity was included during the presentations. While the participants described their instruments, the facilitator listened for key elements of their designs, such as essential features, attributes, characteristics that could help to define the instrument. As elements were identified, they were written on sticky notes and posted to the whiteboard, clustered around the eight considerations that had been given in the previous activity. The presenter and other participants were also encouraged to suggest elements which were added to the board. 
+While the participants described their instruments the facilitator listened for key elements of their designs, such as essential features, attributes, characteristics that could help to define the instrument. As elements were identified, they were written on sticky notes and posted to the whiteboard, clustered around the eight considerations that had been given in the previous activity. The presenter and other participants were also encouraged to suggest elements which were added to the board. 
 % This method of identifying design elements with sticky notes is common in design research \citep{Fischel2018}. The sticky notes were also color coded by participant to allow us to attribute key elements to individual designs \citep{Reichelt2014}, although ultimately a detailed comparative analysis was beyond the scope of this study.
 
 \subsubsection{Activity 4: Dot-voting}
 \label{ch3-sec:activity-4-dot-voting}
 
-The identification of key elements and posting them to the whiteboard was intended to set up a transition in the workshop and allow the group collectively to consider aspects of the designs that would be appealing to incorporate into a fully functional instrument. To facilitate this turn, participants were then asked to vote for the elements that they most strongly favored by placing colored stickers next to the items they wished to vote for (as shown in Figure \ref{ch3-fig:dot-voting}). 
+The key element identification was intended to allow the group collectively to consider aspects of the designs that would be appealing to incorporate into a fully functional instrument. To facilitate this turn, participants were then asked to vote for the elements that they most strongly favored by placing colored stickers (dot votes) next to the items they wished to vote for (as shown in Figure \ref{ch3-fig:dot-voting}). 
 % Dot voting is a common activity in design workshops and collaborative sessions to collaboratively prioritize items from a large set \citep{Gibbons2019} and focus attention for discussion and decision making \citep{Gray2010}. Each participant is given a number of stickers to place by the items of their choosing. When they are finished, the votes are calculated and presented to the group for further action. 
-Various recommendations exist for the appropriate number of votes per participant (for example \citep{Gray2010, Gibbons2019}). Considering these recommendations and the number of participants and elements from each session, each participant was alotted 10 votes.
+Drawing from varying recommendations about the appropriate number of votes per participant \citep{Gray2010, Gibbons2019} and considering the number of participants and elements from each session, each participant was allotted 10 votes.
 
 As we will discuss in next section, this exercise was less oriented around ranking of essential design elements and more concerned with facilitating a discussion around individual and shared priorities for bringing a new instrument to life. The voting activity was completed quickly and the workshop moved on to a final discussion.
 
@@ -554,7 +557,7 @@ As we will discuss in next section, this exercise was less oriented around ranki
 \subsubsection{Activity 5: Group discussion}
 \label{ch3-sec:activity-5-group-discussion}
 
-The workshop concluded with a ten minute open discussion (shown in Figure \ref{ch3-fig:discussion}) with the facilitator and participants about the identified key elements and prospects for utilizing them and additional aspects of the instrument designs in the development of new DMIs that they would want to use in their own practice. The facilitator also provided information about future steps for the project including the eventual design of functional instrument prototypes based on the workshop outcomes. The total workshop length was planned for 90 minutes, though session B, with seven participants, ran longer and was completed in just under two hours. 
+The workshop concluded with a ten minute open discussion (shown in Figure \ref{ch3-fig:discussion}) with the facilitator and participants about the identified key elements and prospects for utilizing them and additional aspects of the instrument designs in the development of new DMIs that they would want to use in their own practice. The facilitator also provided information about future steps for the project including the eventual design of functional instrument prototypes based on the workshop outcomes. The workshop length for session a with three participants; session B, with seven participants, ran longer and was completed in just under two hours. 
 
 \section{Results}
 \label{ch3-sec:results}
@@ -564,7 +567,7 @@ Workshop results are reported in two parts. First we present the direct outcomes
 \subsection{Participant profiles and output}
 \label{ch3-sec:participant-profiles-and-output}
 
-In addition to the basic background information collected in the prescreening questionnaire, the self introductions at the beginning of the workshop provided additional insights about the participants' own musical and DMI practices. Profiles of the ten participants are shown in Appendix 1.s
+In addition to the basic background information collected in the prescreening questionnaire, the self introductions at the beginning of the workshop provided additional insights about the participants' own musical and DMI practices. Profiles of the ten participants are shown in Appendix 1.
 
 In their self-introductions, participants were also asked if they had previous experience with designing digital musical instruments (included in Appendix 1). While this was not a criteria for participation, six of the participants reported at least some previous experience, including P04 and P05 who come from engineering backgrounds and have significant technical knowledge and experience in this area. This is consistent with DMI literature that highlights the overlap between DMI design and practice (see \citet{Magnusson2008, Morreale2017, Morreale2018} for example). While not a specific focus for this study, we can envision a future workshop variant that investigates the differences between designers and non-designers explicitly.
 
@@ -736,7 +739,7 @@ In all, 152 incidents were coded across the ten presentations, yielding 56 indiv
 
 To move from open exploration in the workshops to tangible design implementations, we examined the five most common themes (which were mentioned by at least half of the participants) and formulated them into a set of design specifications. In Table~\ref{tab:themes-and-specs}, we list each theme with a description, exemplar quote, and resulting design specification. 
 
-\begin{table}[htbp]
+\begin{table}[t]
     \footnotesize
     \centering
     \caption{Analysis Themes, Participant Quotes, and Design Specifications}
@@ -777,11 +780,11 @@ To move from open exploration in the workshops to tangible design implementation
         The instrument should feature multiple modes or modules of operation that allow for a variety of playing styles. \\
         \hline
         
-        \multicolumn{3}{l}{\textbf{\emph{Performance environment}}} \\
-        Large-scale performance environments, audiovisual elements, video projections, immersive spaces and audience interaction. &
-        ``So I am imagining I'm playing in a dome-like structure, with the world map projected on to it.'' (P04) &
-        \emph{none} \\
-        \hline
+        % \multicolumn{3}{l}{\textbf{\emph{Performance environment}}} \\
+        % Large-scale performance environments, audiovisual elements, video projections, immersive spaces and audience interaction. &
+        % ``So I am imagining I'm playing in a dome-like structure, with the world map projected on to it.'' (P04) &
+        % \emph{none} \\
+        % \hline
     \end{tabular}
     \label{tab:themes-and-specs}
 \end{table}
@@ -1047,7 +1050,7 @@ Finally, we also present this research as a methodological contribution of a uni
     \hline
     \textbf{Themes and Codes} & \textbf{Cases} & \textbf{P1} & \textbf{P2} & \textbf{P3} & \textbf{P4} & \textbf{P5} & \textbf{P6} & \textbf{P7} & \textbf{P8} & \textbf{P9} & \textbf{P10} & \textbf{Refs} \\ 
     \hline}
-    \begin{supertabular}{L{5.5cm}cccccccccccc}
+    \begin{supertabular}{L{5.3cm}cccccccccccc}
         \emph{\textbf{interaction}} & \emph{\textbf{10}} & \emph{\textbf{X}} & \emph{\textbf{X}} & \emph{\textbf{X}} & \emph{\textbf{X}} & \emph{\textbf{X}} & \emph{\textbf{X}} & \emph{\textbf{X}} & \emph{\textbf{X}} & \emph{\textbf{X}} & \emph{\textbf{X}} & \emph{\textbf{71}} \\
         standard input controls          & 8  & X & X & X &   & X & X &   & X & X & X & 20 \\
         strings                          & 5  &   & X &   & X &   &   & X & X &   & X & 8  \\

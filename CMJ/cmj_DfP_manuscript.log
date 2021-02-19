@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.3)  9 FEB 2021 02:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.3)  19 FEB 2021 14:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -742,7 +742,7 @@ Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 \tymax=\dimen318
 \TY@tablewidth=\dimen319
 )
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 86.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 88.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -752,22 +752,22 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 ) (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.aux)
 \openout1 = `cmj_DfP_manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -827,7 +827,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 86.
+Package hyperref Info: Link coloring OFF on input line 88.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -837,28 +837,28 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count340
 )
-LaTeX Info: Redefining \ref on input line 86.
-LaTeX Info: Redefining \pageref on input line 86.
-LaTeX Info: Redefining \nameref on input line 86.
+LaTeX Info: Redefining \ref on input line 88.
+LaTeX Info: Redefining \pageref on input line 88.
+LaTeX Info: Redefining \nameref on input line 88.
  (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.out) (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.out)
 \@outlinefile=\write5
 \openout5 = `cmj_DfP_manuscript.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 86.
+LaTeX Info: Redefining \microtypecontext on input line 88.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 86.
+LaTeX Info: Redefining \showhyphens on input line 88.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 89.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 91.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
@@ -869,36 +869,32 @@ Package microtype Info: Loading generic protrusion settings for font family
  [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2] [3] [4] [5] [6] [7]
-<./Figures//ch3_probatio_assembly.jpg, id=317, 1447.4075pt x 1030.85126pt>
+<./Figures//ch3_probatio_assembly.jpg, id=313, 1447.4075pt x 1030.85126pt>
 File: ./Figures//ch3_probatio_assembly.jpg Graphic file (type jpg)
 <use ./Figures//ch3_probatio_assembly.jpg>
-Package pdftex.def Info: ./Figures//ch3_probatio_assembly.jpg  used on input line 211.
+Package pdftex.def Info: ./Figures//ch3_probatio_assembly.jpg  used on input line 213.
 (pdftex.def)             Requested size: 227.83147pt x 162.24982pt.
-<./Figures//ch3_probatio_chart.jpg, id=318, 513.92pt x 385.44pt>
+<./Figures//ch3_probatio_chart.jpg, id=314, 513.92pt x 385.44pt>
 File: ./Figures//ch3_probatio_chart.jpg Graphic file (type jpg)
 <use ./Figures//ch3_probatio_chart.jpg>
-Package pdftex.def Info: ./Figures//ch3_probatio_chart.jpg  used on input line 218.
+Package pdftex.def Info: ./Figures//ch3_probatio_chart.jpg  used on input line 220.
 (pdftex.def)             Requested size: 227.83147pt x 170.87625pt.
  [8 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_probatio_assembly.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_probatio_chart.jpg>] [9] [10] [11] [12] [13] [14]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 437.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [15]
-<./Figures//ch3_dfp_nfp_A.jpg, id=393, 1570.86874pt x 602.25pt>
+<./Figures//ch3_dfp_nfp_A.jpg, id=382, 1570.86874pt x 602.25pt>
 File: ./Figures//ch3_dfp_nfp_A.jpg Graphic file (type jpg)
 <use ./Figures//ch3_dfp_nfp_A.jpg>
-Package pdftex.def Info: ./Figures//ch3_dfp_nfp_A.jpg  used on input line 500.
+Package pdftex.def Info: ./Figures//ch3_dfp_nfp_A.jpg  used on input line 434.
 (pdftex.def)             Requested size: 469.75502pt x 180.09744pt.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 503.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 437.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 503.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 437.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -906,91 +902,80 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-<./Figures//ch3_dfp_nfp_B.jpg, id=394, 1204.5pt x 602.25pt>
+<./Figures//ch3_dfp_nfp_B.jpg, id=383, 1204.5pt x 602.25pt>
 File: ./Figures//ch3_dfp_nfp_B.jpg Graphic file (type jpg)
 <use ./Figures//ch3_dfp_nfp_B.jpg>
-Package pdftex.def Info: ./Figures//ch3_dfp_nfp_B.jpg  used on input line 507.
+Package pdftex.def Info: ./Figures//ch3_dfp_nfp_B.jpg  used on input line 441.
 (pdftex.def)             Requested size: 277.15373pt x 138.5789pt.
-<./Figures//ch3_dfp_nfp_B_P4.jpg, id=395, 803.0pt x 602.25pt>
+<./Figures//ch3_dfp_nfp_B_P4.jpg, id=384, 803.0pt x 602.25pt>
 File: ./Figures//ch3_dfp_nfp_B_P4.jpg Graphic file (type jpg)
 <use ./Figures//ch3_dfp_nfp_B_P4.jpg>
-Package pdftex.def Info: ./Figures//ch3_dfp_nfp_B_P4.jpg  used on input line 513.
+Package pdftex.def Info: ./Figures//ch3_dfp_nfp_B_P4.jpg  used on input line 447.
 (pdftex.def)             Requested size: 187.89914pt x 140.92226pt.
- [16 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_nfp_A.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_nfp_B.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_nfp_B_P4.jpg>]
-<./Figures//ch3_dfp_dot_voting_B.jpg, id=406, 803.0pt x 602.25pt>
+ [15] [16 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_nfp_A.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_nfp_B.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_nfp_B_P4.jpg>]
+<./Figures//ch3_dfp_dot_voting_B.jpg, id=402, 803.0pt x 602.25pt>
 File: ./Figures//ch3_dfp_dot_voting_B.jpg Graphic file (type jpg)
 <use ./Figures//ch3_dfp_dot_voting_B.jpg>
-Package pdftex.def Info: ./Figures//ch3_dfp_dot_voting_B.jpg  used on input line 542.
+Package pdftex.def Info: ./Figures//ch3_dfp_dot_voting_B.jpg  used on input line 545.
 (pdftex.def)             Requested size: 230.18253pt x 172.6355pt.
-<./Figures//ch3_dfp_discussion_A.jpg, id=407, 803.0pt x 602.25pt>
+<./Figures//ch3_dfp_discussion_A.jpg, id=403, 803.0pt x 602.25pt>
 File: ./Figures//ch3_dfp_discussion_A.jpg Graphic file (type jpg)
 <use ./Figures//ch3_dfp_discussion_A.jpg>
-Package pdftex.def Info: ./Figures//ch3_dfp_discussion_A.jpg  used on input line 548.
+Package pdftex.def Info: ./Figures//ch3_dfp_discussion_A.jpg  used on input line 551.
 (pdftex.def)             Requested size: 230.18253pt x 172.6355pt.
- [17] [18 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_dot_voting_B.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_discussion_A.jpg>] [19]
-<./Figures//CMJ1.jpg, id=436, 231.264pt x 173.448pt>
+ [17] [18 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_dot_voting_B.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_discussion_A.jpg>]
+<./Figures//CMJ1.jpg, id=424, 231.264pt x 173.448pt>
 File: ./Figures//CMJ1.jpg Graphic file (type jpg)
 <use ./Figures//CMJ1.jpg>
-Package pdftex.def Info: ./Figures//CMJ1.jpg  used on input line 602.
+Package pdftex.def Info: ./Figures//CMJ1.jpg  used on input line 605.
 (pdftex.def)             Requested size: 230.18253pt x 172.64565pt.
-<./Figures//CMJ2.jpg, id=437, 231.264pt x 173.448pt>
+<./Figures//CMJ2.jpg, id=425, 231.264pt x 173.448pt>
 File: ./Figures//CMJ2.jpg Graphic file (type jpg)
 <use ./Figures//CMJ2.jpg>
-Package pdftex.def Info: ./Figures//CMJ2.jpg  used on input line 608.
+Package pdftex.def Info: ./Figures//CMJ2.jpg  used on input line 611.
 (pdftex.def)             Requested size: 230.18253pt x 172.64565pt.
-<./Figures//CMJ3.jpg, id=438, 231.264pt x 173.448pt>
+<./Figures//CMJ3.jpg, id=426, 231.264pt x 173.448pt>
 File: ./Figures//CMJ3.jpg Graphic file (type jpg)
 <use ./Figures//CMJ3.jpg>
-Package pdftex.def Info: ./Figures//CMJ3.jpg  used on input line 614.
+Package pdftex.def Info: ./Figures//CMJ3.jpg  used on input line 617.
 (pdftex.def)             Requested size: 230.18253pt x 172.64565pt.
-<./Figures//CMJ4.jpg, id=439, 231.264pt x 173.448pt>
+<./Figures//CMJ4.jpg, id=427, 231.264pt x 173.448pt>
 File: ./Figures//CMJ4.jpg Graphic file (type jpg)
 <use ./Figures//CMJ4.jpg>
-Package pdftex.def Info: ./Figures//CMJ4.jpg  used on input line 620.
+Package pdftex.def Info: ./Figures//CMJ4.jpg  used on input line 623.
 (pdftex.def)             Requested size: 230.18253pt x 172.64565pt.
- [20 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//CMJ1.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//CMJ2.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//CMJ3.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//CMJ4.jpg>] [21]
-<./Figures//ch3_key_element_categories.jpg, id=457, 951.555pt x 568.1225pt>
+ [19] [20 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//CMJ1.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//CMJ2.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//CMJ3.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//CMJ4.jpg>] [21]
+<./Figures//ch3_key_element_categories.jpg, id=453, 951.555pt x 568.1225pt>
 File: ./Figures//ch3_key_element_categories.jpg Graphic file (type jpg)
 <use ./Figures//ch3_key_element_categories.jpg>
-Package pdftex.def Info: ./Figures//ch3_key_element_categories.jpg  used on input line 656.
+Package pdftex.def Info: ./Figures//ch3_key_element_categories.jpg  used on input line 659.
 (pdftex.def)             Requested size: 352.31625pt x 210.3494pt.
- [22 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_key_element_categories.jpg>] [23] [24] [25] [26] [27] [28] (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.bbl [29] [30] [31] [32] [33] [34] [35]) [36] [37]
-Overfull \hbox (1.15938pt too wide) in alignment at lines 958--1029
+ [22 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_key_element_categories.jpg>] [23] [24] [25] [26] [27] [28] (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.bbl [29] [30] [31] [32] [33] [34] [35]) [36]
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 997.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+Overfull \hbox (1.15938pt too wide) in alignment at lines 961--1032
  [] [] [] [] 
  []
 
-[38]
-Overfull \hbox (5.48482pt too wide) in paragraph at lines 1050--1050
-[] 
- []
-
-
-Overfull \hbox (5.48482pt too wide) in paragraph at lines 1050--1088
-[]  
- []
-
-[39]
-Overfull \hbox (5.48482pt too wide) in paragraph at lines 1088--1139
-[]  
- []
-
-[40] (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.aux)
+[37] [38] [39] [40] (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.aux)
 Package rerunfilecheck Info: File `cmj_DfP_manuscript.out' has not changed.
-(rerunfilecheck)             Checksum: 6BE2EBD15B8CCD8A29DED26136AFD100;2273.
+(rerunfilecheck)             Checksum: 6248A141BEB68ACEE64EDB97D00EC2AF;2249.
  ) 
 Here is how much of TeX's memory you used:
- 23791 strings out of 479303
- 434356 string characters out of 5867282
- 786522 words of memory out of 5000000
- 39997 multiletter control sequences out of 15000+600000
- 459299 words of font info for 281 fonts, out of 8000000 for 9000
+ 23773 strings out of 479303
+ 434162 string characters out of 5867282
+ 801226 words of memory out of 5000000
+ 39992 multiletter control sequences out of 15000+600000
+ 458488 words of font info for 273 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,103p,1431b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,11n,103p,1431b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.pdf (40 pages, 5735112 bytes).
+Output written on /Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.pdf (40 pages, 5732792 bytes).
 PDF statistics:
- 644 PDF objects out of 1000 (max. 8388607)
- 579 compressed objects within 6 object streams
- 153 named destinations out of 1000 (max. 500000)
- 82249 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 640 PDF objects out of 1000 (max. 8388607)
+ 575 compressed objects within 6 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 78145 words of extra memory for PDF output out of 89155 (max. 10000000)
 
