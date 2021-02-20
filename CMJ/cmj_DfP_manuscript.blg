@@ -4,52 +4,52 @@ The top-level auxiliary file: cmj_DfP_manuscript.aux
 The style file: cmj.bst
 Database file #1: diss_bib.bib
 Warning--entry type for "Gibbons2019" isn't style-file defined
---line 1808 of file diss_bib.bib
+--line 1807 of file diss_bib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty pages in Fyans:2012
 Warning--empty pages in Harrison2007
 Warning--missing publisher in os-mapping-2002
 Warning--missing publisher in cmj-mapping-2014
 Warning--empty pages in Young2015a
-You've used 66 entries,
+You've used 63 entries,
             3211 wiz_defined-function locations,
-            1071 strings with 16374 characters,
-and the built_in function-call counts, 41665 in all, are:
-= -- 3588
-> -- 1795
-< -- 75
-+ -- 766
-- -- 456
-* -- 2807
-:= -- 6207
-add.period$ -- 325
-call.type$ -- 66
-change.case$ -- 475
-chr.to.int$ -- 77
-cite$ -- 71
-duplicate$ -- 3063
-empty$ -- 3061
-format.name$ -- 640
-if$ -- 8589
+            1055 strings with 15910 characters,
+and the built_in function-call counts, 39817 in all, are:
+= -- 3431
+> -- 1712
+< -- 71
++ -- 730
+- -- 435
+* -- 2686
+:= -- 5931
+add.period$ -- 311
+call.type$ -- 63
+change.case$ -- 452
+chr.to.int$ -- 74
+cite$ -- 68
+duplicate$ -- 2927
+empty$ -- 2925
+format.name$ -- 610
+if$ -- 8204
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 556
-newline$ -- 337
-num.names$ -- 274
-pop$ -- 1341
+missing$ -- 533
+newline$ -- 322
+num.names$ -- 262
+pop$ -- 1277
 preamble$ -- 1
-purify$ -- 410
+purify$ -- 391
 quote$ -- 0
-skip$ -- 1384
+skip$ -- 1319
 stack$ -- 0
-substring$ -- 1957
-swap$ -- 1563
-text.length$ -- 26
+substring$ -- 1881
+swap$ -- 1499
+text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 561
+type$ -- 537
 warning$ -- 5
-while$ -- 327
+while$ -- 312
 width$ -- 0
-write$ -- 859
+write$ -- 821
 (There were 6 warnings)

@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex cmj_DfP_manuscript"] 1613756140 "cmj_DfP_manuscript.aux" "cmj_DfP_manuscript.bbl" "cmj_DfP_manuscript" 1613764061
+["bibtex cmj_DfP_manuscript"] 1613782078 "cmj_DfP_manuscript.aux" "cmj_DfP_manuscript.bbl" "cmj_DfP_manuscript" 1613782080
   "./cmj.bst" 1519312851 32441 d3fc67fd6e3a53dfd7ea31b28c381051 ""
-  "cmj_DfP_manuscript.aux" 1613763394 17500 fade46fdf156ee997f20c3cecc640e5f "pdflatex"
-  "diss_bib.bib" 1612845983 160073 1f10dec504696e2463794f0b03903b19 ""
+  "cmj_DfP_manuscript.aux" 1613782080 16522 cc96ef21517dfd7da4b0328a9b11ddc3 "pdflatex"
+  "diss_bib.bib" 1613777503 160045 18f62bed8f8047f03d0e7c3c6280b7e5 ""
   (generated)
   "cmj_DfP_manuscript.blg"
   "cmj_DfP_manuscript.bbl"
-["pdflatex"] 1613763391 "/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.tex" "/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.pdf" "cmj_DfP_manuscript" 1613764061
+["pdflatex"] 1613782078 "/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.tex" "/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.pdf" "cmj_DfP_manuscript" 1613782080
   "./Figures//CMJ1.jpg" 1612836354 551548 07b6961353f6abf1e91e31d2350b651c ""
   "./Figures//CMJ2.jpg" 1612836354 571229 fc40c26b680c369495fc6743b13a8d36 ""
   "./Figures//CMJ3.jpg" 1612836355 427042 82002827ae36d2af7410dced9ad0a770 ""
@@ -19,8 +19,8 @@
   "./Figures//ch3_key_element_categories.jpg" 1611769770 106996 b664d77fe86a29d8f3a9735e9f957765 ""
   "./Figures//ch3_probatio_assembly.jpg" 1611769770 654319 64b84b82d991950c7d909f07ae6197df ""
   "./Figures//ch3_probatio_chart.jpg" 1611769770 107600 c4709c33da1dc8c4d8745fdb7275c502 ""
-  "/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.aux" 1613763394 17500 fade46fdf156ee997f20c3cecc640e5f ""
-  "/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.tex" 1613764046 108092 af84abda4a8c48d22cfa821e36c9212e ""
+  "/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.aux" 1613782080 16522 cc96ef21517dfd7da4b0328a9b11ddc3 ""
+  "/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.tex" 1613782074 107901 79487a7f3f81f22a679bacf9db60cccb ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -266,14 +266,14 @@
   "Figures//ch3_probatio_chart.jpg" 1611769770 107600 c4709c33da1dc8c4d8745fdb7275c502 ""
   "anonymize.sty" 1611766435 2486 82101697c9833207494ff0dd50474714 ""
   "cmjStyle.sty" 1544024548 4373 5cb9ff978a8a8d0808f85367f79f46f9 ""
-  "cmj_DfP_manuscript.aux" 1613763394 17500 fade46fdf156ee997f20c3cecc640e5f "pdflatex"
-  "cmj_DfP_manuscript.bbl" 1613756140 17955 72fef6d7ff5b167dff1d9c1e0d593d52 "bibtex cmj_DfP_manuscript"
-  "cmj_DfP_manuscript.out" 1613763394 2249 6248a141beb68acee64edb97d00ec2af "pdflatex"
-  "cmj_DfP_manuscript.tex" 1613764046 108092 af84abda4a8c48d22cfa821e36c9212e ""
+  "cmj_DfP_manuscript.aux" 1613782080 16522 cc96ef21517dfd7da4b0328a9b11ddc3 "pdflatex"
+  "cmj_DfP_manuscript.bbl" 1613782078 17158 9a8197462cfe094b0ad2f6e719958f2a "bibtex cmj_DfP_manuscript"
+  "cmj_DfP_manuscript.out" 1613782080 2040 3e1bf37a0bc1cfb57673f620907ff95c "pdflatex"
+  "cmj_DfP_manuscript.tex" 1613782074 107901 79487a7f3f81f22a679bacf9db60cccb ""
   (generated)
-  "/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.log"
-  "cmj_DfP_manuscript.log"
-  "cmj_DfP_manuscript.pdf"
   "cmj_DfP_manuscript.aux"
-  "cmj_DfP_manuscript.out"
+  "cmj_DfP_manuscript.log"
   "/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.pdf"
+  "/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.log"
+  "cmj_DfP_manuscript.pdf"
+  "cmj_DfP_manuscript.out"

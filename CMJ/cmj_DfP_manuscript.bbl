@@ -1,4 +1,4 @@
-\begin{thebibliography}{66}
+\begin{thebibliography}{63}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -14,7 +14,7 @@ Absar, R., and C.~Guastavino. 2015.
 \bibitem[{Andersen(2017)}]{Andersen2017}
 Andersen, K. 2017.
 \newblock \enquote{{Making Magic Machines}.}
-\newblock Ph.d. thesis, KTH Royal Institute of Technology.
+\newblock {Ph.D. thesis}, KTH Royal Institute of Technology.
 
 \bibitem[{Andersen and Wakkary(2019)}]{Andersen2019}
 Andersen, K., and R.~Wakkary. 2019.
@@ -66,12 +66,6 @@ Bongers, B. 2000.
 Braun, V., and V.~Clarke. 2006.
 \newblock \enquote{{Using Thematic Analysis in Psychology}.}
 \newblock \emph{Qualitative Research in Psychology} 3(2):77--101.
-
-\bibitem[{Cadoz(1988)}]{Cadoz1988}
-Cadoz, C. 1988.
-\newblock \enquote{{Instrumental Gesture and Musical Composition}.}
-\newblock In \emph{Proceedings of the International Computer Music Conference},
-  pp. 1--12.
 
 \bibitem[{Calegario(2019)}]{Calegario2019}
 Calegario, F. 2019.
@@ -145,12 +139,6 @@ Gray, D., S.~Brown, and J.~Macanufo. 2010.
   changemakers}}.
 \newblock O'Reilly.
 
-\bibitem[{Greenberg et~al.(2011)Greenberg, Carpendale, Marquardt, and
-  Buxton}]{greenberg2011sketching}
-Greenberg, S., S.~Carpendale, N.~Marquardt, and B.~Buxton. 2011.
-\newblock \emph{Sketching User Experiences: The Workbook}.
-\newblock Morgan Kaufmann.
-
 \bibitem[{Gurevich(2016)}]{Gurevich2016}
 Gurevich, M. 2016.
 \newblock \enquote{{Diversity in NIME Research Practices}.}
@@ -202,13 +190,6 @@ Magnusson, T. 2019.
 \newblock \emph{{Sonic Writing: Technologies of Material, Symbolic, and Signal
   Inscriptions}}.
 \newblock Bloomsbury Academic.
-
-\bibitem[{Magnusson and Hurtado(2007)}]{Magnusson2007}
-Magnusson, T., and E.~Hurtado. 2007.
-\newblock \enquote{{The acoustic, the digital and the body: A survey on musical
-  instruments}.}
-\newblock In \emph{Proceedings of the International Conference on New
-  Instruments for Musical Expression}, pp. 94--99.
 
 \bibitem[{Magnusson and Hurtado(2008)}]{Magnusson2008}
 Magnusson, T., and E.~Hurtado. 2008.
@@ -290,12 +271,12 @@ Muller, M.~J., and A.~Druin. 2012.
 \bibitem[{Norman(1988)}]{Norman1988}
 Norman, D.~A. 1988.
 \newblock \emph{{The Psychology of Everyday Things}}.
-\newblock New York: Basic Books.
+\newblock Basic Books.
 
 \bibitem[{Norman(2013)}]{Norman2013}
 Norman, D.~A. 2013.
 \newblock \emph{{The Design of Everyday Things}}.
-\newblock Basic Books, revised and expanded edition edition.
+\newblock Basic Books, revised and expanded edition.
 
 \bibitem[{O'Brien and Toms(2008)}]{OBrien2008}
 O'Brien, H.~L., and E.~G. Toms. 2008.
