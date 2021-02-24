@@ -67,12 +67,12 @@ Braun, V., and V.~Clarke. 2006.
 \newblock \enquote{{Using Thematic Analysis in Psychology}.}
 \newblock \emph{Qualitative Research in Psychology} 3(2):77--101.
 
-\bibitem[{Calegario(2019)}]{Calegario2019}
-Calegario, F. 2019.
-\newblock \emph{{Designing Digital Musical Instruments Using Probatio: A
-  Physical Prototyping Toolkit}}.
-\newblock Computational Synthesis and Creative Systems. Springer International
-  Publishing.
+\bibitem[{Calegario et~al.(2017)Calegario, Wanderley, Huot, Cabral, and
+  Ramalho}]{Calegario2017}
+Calegario, F., M.~M. Wanderley, S.~Huot, G.~Cabral, and G.~Ramalho. 2017.
+\newblock \enquote{{A Method and Toolkit for Digital Musical Instruments:
+  Generating Ideas and Prototypes}.}
+\newblock \emph{IEEE Multimedia} 24(1):63--71.
 
 \bibitem[{Calegario et~al.(2020)Calegario, Wanderley, Tragtenberg, Wang
   et~al.}]{Calegario2020}
@@ -211,13 +211,6 @@ Marquez-Borbon, A., M.~Gurevich, A.~C. Fyans, and P.~Stapleton. 2011.
 \newblock In \emph{Proceedings of the International Conference on New
   Interfaces for Musical Expression}, pp. 373--376.
 
-\bibitem[{Marshall et~al.(2009)Marshall, Hartshorn, Wanderley, and
-  Levitin}]{Marshall2009b}
-Marshall, M.~T., M.~Hartshorn, M.~Wanderley, and D.~J. Levitin. 2009.
-\newblock \enquote{{Sensor Choice for Parameter Modulations in Digital Musical
-  Instruments: Empirical Evidence from Pitch Modulation}.}
-\newblock \emph{Journal of New Music Research} 38(January 2015):241--253.
-
 \bibitem[{McPherson et~al.(2019)McPherson, Morreale, and
   Harrison}]{mcpherson2019musical}
 McPherson, A., F.~Morreale, and J.~Harrison. 2019.
@@ -303,6 +296,14 @@ Pigrem, J., and A.~McPherson. 2018.
 \newblock In \emph{Proceedings of the International Conference on New
   Interfaces for Musical Expression}, pp. 382--385.
 
+\bibitem[{Rodger et~al.(2020)Rodger, Stapleton, van Walstijn, Ortiz, and
+  Pardue}]{Rodger2020}
+Rodger, M., P.~Stapleton, M.~van Walstijn, M.~Ortiz, and L.~S. Pardue. 2020.
+\newblock \enquote{{What Makes a Good Musical Instrument? A Matter of
+  Processes, Ecologies and Specificities}.}
+\newblock In \emph{Proceedings of the International Conference on New
+  Interfaces for Musical Expression}, pp. 484--490.
+
 \bibitem[{Rossing(1982)}]{Rossing1982}
 Rossing, T.~D. 1982.
 \newblock \enquote{{Chladni's law for vibrating plates}.}
@@ -328,13 +329,20 @@ Strauss, A., and J.~Corbin. 1994.
 \newblock \enquote{{Grounded theory methodology}.}
 \newblock \emph{Handbook of qualitative research} 17(1):273--285.
 
+\bibitem[{Sullivan et~al.(forthcoming)Sullivan, Guastavino, and
+  Wanderley}]{Sullivan2021jnmr}
+Sullivan, J., C.~Guastavino, and M.~M. Wanderley. forthcoming.
+\newblock \enquote{{Surveying Digital Musical Instrument Use in Diverse
+  Performance Communities}.}
+\newblock In \emph{{Journal for New Music Research}}.
+
 \bibitem[{Sullivan et~al.(2018)Sullivan, Tibbitts, Gatinet, and
   Wanderley}]{Sullivan2018}
 Sullivan, J., A.~Tibbitts, B.~Gatinet, and M.~M. Wanderley. 2018.
 \newblock \enquote{{Gestural Control of Augmented Instrumental Performance: A
   Case Study of the Concert Harp}.}
 \newblock In \emph{Proceedings of the International Conference on Movement and
-  Computing}, October, pp. 1--8.
+  Computing}, pp. 1--8.
 
 \bibitem[{Sullivan et~al.(2020)Sullivan, Vanasse, Guastavino, and
   Wanderley}]{Sullivan2020nime}
@@ -343,13 +351,6 @@ Sullivan, J., J.~Vanasse, C.~Guastavino, and M.~M. Wanderley. 2020.
   for Active Musicians}.}
 \newblock In \emph{Proceedings of the International Conference on New
   Interfaces for Musical Expression}, pp. 5--10.
-
-\bibitem[{Sullivan and Wanderley(2019)}]{Sullivan2019}
-Sullivan, J., and M.~M. Wanderley. 2019.
-\newblock \enquote{{Surveying Digital Musical Instrument Use Across Diverse
-  Communities of Practice}.}
-\newblock In \emph{Proceedings of the International Symposium on Computer Music
-  Multimedia Research}, pp. 745--756.
 
 \bibitem[{Tahlro\v{g}lu et~al.(2020)Tahlro\v{g}lu, Magnusson, Parkinson,
   Garrelfs, and Tanaka}]{Tahlroglu2020}
@@ -381,8 +382,8 @@ Wanderley, M.~M., and P.~Depalle. 2004.
 \newblock \enquote{{Gestural control of sound synthesis}.}
 \newblock \emph{Proceedings of the IEEE} 92(4):632--644.
 
-\bibitem[{Wanderley and Malloch(2013)}]{cmj-mapping-2014}
-Wanderley, M.~M., and J.~Malloch, (eds.) . 2013.
+\bibitem[{Wanderley and Malloch(2014)}]{cmj-mapping-2014}
+Wanderley, M.~M., and J.~Malloch, (eds.) . 2014.
 \newblock \emph{Computer Music Journal: Special Issue on Mapping}.
 \newblock 38(3).
 

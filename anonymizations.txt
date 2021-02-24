@@ -1,0 +1,19 @@
+This sheet lists all content that has been removed for the manuscript for blind review. 
+
+- p1: authors: 
+
+John Sullivan(1,2), Marcelo M. Wanderley(1,2), and Catherine Guastavino(1,3)
+
+(1) Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT)
+(2) Input Devices and Music Interaction Laboratory (IDMIL)
+(3) Multimodal Interaction Laboratory (MIL)
+
+McGill University
+527 Sherbrooke St. W. Suite A715
+Montreal, QC H3A1E3 Canada
+
+{john.sullivan2, marcelo.wanderley, catherine.guastavino}@mcgill.ca
+
+- p2 reference: 
+
+(Sullivan and Wanderley 2019): Sullivan, J., C. Guastavino, and M. M. Wanderley. forthcoming. “Surveying Digital Musical Instrument Use in Diverse Performance Communities.” In Journal for New Music Research. Under review.

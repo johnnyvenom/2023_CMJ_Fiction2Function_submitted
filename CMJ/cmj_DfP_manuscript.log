@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.3)  19 FEB 2021 20:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.3)  23 FEB 2021 20:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.tex
-(/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.tex
+**/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.tex
+(/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-02> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -22,7 +22,7 @@ File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmjStyle.sty
+) (/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmjStyle.sty
 LaTeX Style file for paper submissions for the Computer Music Journal --- February 2017, Version 1.1.1
 Package: cmjStyle 2014/02/14 CMJ LaTeX package Version 1.1.1
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -372,7 +372,7 @@ LaTeX Info: Redefining \lslig on input line 915.
 Package microtype Info: Loading configuration file microtype.cfg.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2020/12/07 v2.8 microtype main configuration file (RS)
-)) (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/anonymize.sty
+)) (/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/anonymize.sty
 Package: anonymize 2013/01/13 Custom Package
  (/usr/local/texlive/2020/texmf-dist/tex/generic/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
@@ -749,7 +749,7 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count333
 \l__pdf_internal_box=\box118
-) (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.aux)
+) (/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.aux)
 \openout1 = `cmj_DfP_manuscript.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -840,7 +840,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 88.
 LaTeX Info: Redefining \pageref on input line 88.
 LaTeX Info: Redefining \nameref on input line 88.
- (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.out) (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.out)
+ (/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.out) (/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.out)
 \@outlinefile=\write5
 \openout5 = `cmj_DfP_manuscript.out'.
 
@@ -866,35 +866,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-] [2] [3] [4] [5] [6]
-<./Figures//ch3_probatio_assembly.jpg, id=286, 1447.4075pt x 1030.85126pt>
-File: ./Figures//ch3_probatio_assembly.jpg Graphic file (type jpg)
-<use ./Figures//ch3_probatio_assembly.jpg>
-Package pdftex.def Info: ./Figures//ch3_probatio_assembly.jpg  used on input line 215.
-(pdftex.def)             Requested size: 227.83147pt x 162.24982pt.
-<./Figures//ch3_probatio_chart.jpg, id=287, 513.92pt x 385.44pt>
-File: ./Figures//ch3_probatio_chart.jpg Graphic file (type jpg)
-<use ./Figures//ch3_probatio_chart.jpg>
-Package pdftex.def Info: ./Figures//ch3_probatio_chart.jpg  used on input line 222.
-(pdftex.def)             Requested size: 227.83147pt x 170.87625pt.
- [7 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_probatio_assembly.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_probatio_chart.jpg>] [8] [9] [10] [11]
-<./Figures//ch3_dfp_nfp_A.jpg, id=343, 1570.86874pt x 602.25pt>
-File: ./Figures//ch3_dfp_nfp_A.jpg Graphic file (type jpg)
-<use ./Figures//ch3_dfp_nfp_A.jpg>
-Package pdftex.def Info: ./Figures//ch3_dfp_nfp_A.jpg  used on input line 432.
-(pdftex.def)             Requested size: 469.75502pt x 180.09744pt.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 435.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 435.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -902,88 +883,104 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-<./Figures//ch3_dfp_nfp_B.jpg, id=344, 1204.5pt x 602.25pt>
-File: ./Figures//ch3_dfp_nfp_B.jpg Graphic file (type jpg)
-<use ./Figures//ch3_dfp_nfp_B.jpg>
-Package pdftex.def Info: ./Figures//ch3_dfp_nfp_B.jpg  used on input line 439.
-(pdftex.def)             Requested size: 277.15373pt x 138.5789pt.
-<./Figures//ch3_dfp_nfp_B_P4.jpg, id=345, 803.0pt x 602.25pt>
-File: ./Figures//ch3_dfp_nfp_B_P4.jpg Graphic file (type jpg)
-<use ./Figures//ch3_dfp_nfp_B_P4.jpg>
-Package pdftex.def Info: ./Figures//ch3_dfp_nfp_B_P4.jpg  used on input line 445.
-(pdftex.def)             Requested size: 187.89914pt x 140.92226pt.
- [12] [13 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_nfp_A.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_nfp_B.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_nfp_B_P4.jpg>]
-<./Figures//ch3_dfp_dot_voting_B.jpg, id=364, 803.0pt x 602.25pt>
-File: ./Figures//ch3_dfp_dot_voting_B.jpg Graphic file (type jpg)
-<use ./Figures//ch3_dfp_dot_voting_B.jpg>
-Package pdftex.def Info: ./Figures//ch3_dfp_dot_voting_B.jpg  used on input line 542.
-(pdftex.def)             Requested size: 230.18253pt x 172.6355pt.
-<./Figures//ch3_dfp_discussion_A.jpg, id=365, 803.0pt x 602.25pt>
-File: ./Figures//ch3_dfp_discussion_A.jpg Graphic file (type jpg)
-<use ./Figures//ch3_dfp_discussion_A.jpg>
-Package pdftex.def Info: ./Figures//ch3_dfp_discussion_A.jpg  used on input line 548.
-(pdftex.def)             Requested size: 230.18253pt x 172.6355pt.
- [14] [15 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_dot_voting_B.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_dfp_discussion_A.jpg>]
-<./Figures//CMJ1.jpg, id=387, 231.264pt x 173.448pt>
-File: ./Figures//CMJ1.jpg Graphic file (type jpg)
-<use ./Figures//CMJ1.jpg>
-Package pdftex.def Info: ./Figures//CMJ1.jpg  used on input line 603.
-(pdftex.def)             Requested size: 230.18253pt x 172.64565pt.
-<./Figures//CMJ2.jpg, id=388, 231.264pt x 173.448pt>
-File: ./Figures//CMJ2.jpg Graphic file (type jpg)
-<use ./Figures//CMJ2.jpg>
-Package pdftex.def Info: ./Figures//CMJ2.jpg  used on input line 609.
-(pdftex.def)             Requested size: 230.18253pt x 172.64565pt.
-<./Figures//CMJ3.jpg, id=389, 231.264pt x 173.448pt>
-File: ./Figures//CMJ3.jpg Graphic file (type jpg)
-<use ./Figures//CMJ3.jpg>
-Package pdftex.def Info: ./Figures//CMJ3.jpg  used on input line 615.
-(pdftex.def)             Requested size: 230.18253pt x 172.64565pt.
-<./Figures//CMJ4.jpg, id=390, 231.264pt x 173.448pt>
-File: ./Figures//CMJ4.jpg Graphic file (type jpg)
-<use ./Figures//CMJ4.jpg>
-Package pdftex.def Info: ./Figures//CMJ4.jpg  used on input line 621.
-(pdftex.def)             Requested size: 230.18253pt x 172.64565pt.
- [16] [17 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//CMJ1.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//CMJ2.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//CMJ3.jpg> </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//CMJ4.jpg>] [18]
-<./Figures//ch3_key_element_categories.jpg, id=414, 951.555pt x 568.1225pt>
-File: ./Figures//ch3_key_element_categories.jpg Graphic file (type jpg)
-<use ./Figures//ch3_key_element_categories.jpg>
-Package pdftex.def Info: ./Figures//ch3_key_element_categories.jpg  used on input line 658.
-(pdftex.def)             Requested size: 352.31625pt x 210.3494pt.
- [19 </Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/./Figures//ch3_key_element_categories.jpg>] [20] [21] [22] [23] [24] (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.bbl [25] [26] [27] [28] [29] [30] [31])
-Underfull \vbox (badness 10000) detected at line 957
- []
-
-[32]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 1000.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 99.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-)
-Overfull \hbox (1.15938pt too wide) in alignment at lines 964--1035
+) [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+] [2] [3] [4] [5] [6]
+<./Figures//probatio_assembly.jpg, id=301, 1447.4075pt x 1030.85126pt>
+File: ./Figures//probatio_assembly.jpg Graphic file (type jpg)
+<use ./Figures//probatio_assembly.jpg>
+Package pdftex.def Info: ./Figures//probatio_assembly.jpg  used on input line 236.
+(pdftex.def)             Requested size: 230.18253pt x 163.93288pt.
+<./Figures//probatio_chart.jpg, id=304, 513.92pt x 385.44pt>
+File: ./Figures//probatio_chart.jpg Graphic file (type jpg)
+<use ./Figures//probatio_chart.jpg>
+Package pdftex.def Info: ./Figures//probatio_chart.jpg  used on input line 242.
+(pdftex.def)             Requested size: 230.18253pt x 172.64066pt.
+ [7 </Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/./Figures//probatio_assembly.jpg> </Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/./Figures//probatio_chart.jpg>] [8] [9] [10] [11] [12]
+<./Figures//dfp_nfp_A.jpg, id=365, 1570.86874pt x 602.25pt>
+File: ./Figures//dfp_nfp_A.jpg Graphic file (type jpg)
+<use ./Figures//dfp_nfp_A.jpg>
+Package pdftex.def Info: ./Figures//dfp_nfp_A.jpg  used on input line 453.
+(pdftex.def)             Requested size: 469.75502pt x 180.09744pt.
+<./Figures//dfp_nfp_B.jpg, id=366, 1204.5pt x 602.25pt>
+File: ./Figures//dfp_nfp_B.jpg Graphic file (type jpg)
+<use ./Figures//dfp_nfp_B.jpg>
+Package pdftex.def Info: ./Figures//dfp_nfp_B.jpg  used on input line 460.
+(pdftex.def)             Requested size: 277.15373pt x 138.5789pt.
+<./Figures//dfp_nfp_B_P4.jpg, id=367, 803.0pt x 602.25pt>
+File: ./Figures//dfp_nfp_B_P4.jpg Graphic file (type jpg)
+<use ./Figures//dfp_nfp_B_P4.jpg>
+Package pdftex.def Info: ./Figures//dfp_nfp_B_P4.jpg  used on input line 466.
+(pdftex.def)             Requested size: 187.89914pt x 140.92226pt.
+ [13 </Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/./Figures//dfp_nfp_A.jpg> </Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/./Figures//dfp_nfp_B.jpg> </Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/./Figures//dfp_nfp_B_P4.jpg>] [14]
+<./Figures//dfp_dot_voting_B.jpg, id=387, 803.0pt x 602.25pt>
+File: ./Figures//dfp_dot_voting_B.jpg Graphic file (type jpg)
+<use ./Figures//dfp_dot_voting_B.jpg>
+Package pdftex.def Info: ./Figures//dfp_dot_voting_B.jpg  used on input line 565.
+(pdftex.def)             Requested size: 230.18253pt x 172.6355pt.
+<./Figures//dfp_discussion_A.jpg, id=388, 803.0pt x 602.25pt>
+File: ./Figures//dfp_discussion_A.jpg Graphic file (type jpg)
+<use ./Figures//dfp_discussion_A.jpg>
+Package pdftex.def Info: ./Figures//dfp_discussion_A.jpg  used on input line 571.
+(pdftex.def)             Requested size: 230.18253pt x 172.6355pt.
+ [15 </Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/./Figures//dfp_dot_voting_B.jpg> </Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/./Figures//dfp_discussion_A.jpg>]
+<./Figures//P05.jpg, id=404, 231.264pt x 173.448pt>
+File: ./Figures//P05.jpg Graphic file (type jpg)
+<use ./Figures//P05.jpg>
+Package pdftex.def Info: ./Figures//P05.jpg  used on input line 624.
+(pdftex.def)             Requested size: 230.18253pt x 172.64565pt.
+<./Figures//P06.jpg, id=405, 231.264pt x 173.448pt>
+File: ./Figures//P06.jpg Graphic file (type jpg)
+<use ./Figures//P06.jpg>
+Package pdftex.def Info: ./Figures//P06.jpg  used on input line 630.
+(pdftex.def)             Requested size: 230.18253pt x 172.64565pt.
+<./Figures//P02.jpg, id=406, 231.264pt x 173.448pt>
+File: ./Figures//P02.jpg Graphic file (type jpg)
+<use ./Figures//P02.jpg>
+Package pdftex.def Info: ./Figures//P02.jpg  used on input line 636.
+(pdftex.def)             Requested size: 230.18253pt x 172.64565pt.
+<./Figures//P09.jpg, id=407, 231.264pt x 173.448pt>
+File: ./Figures//P09.jpg Graphic file (type jpg)
+<use ./Figures//P09.jpg>
+Package pdftex.def Info: ./Figures//P09.jpg  used on input line 642.
+(pdftex.def)             Requested size: 230.18253pt x 172.64565pt.
+ [16] [17 </Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/./Figures//P05.jpg> </Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/./Figures//P06.jpg> </Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/./Figures//P02.jpg> </Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/./Figures//P09.jpg>] [18] [19] [20] [21] [22] [23] [24] [25] (/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.bbl [26] [27] [28] [29] [30] [31]) [32]
+Underfull \vbox (badness 10000) detected at line 995
+ []
+
+[33]
+Overfull \hbox (1.15938pt too wide) in alignment at lines 1004--1075
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1035
+Underfull \vbox (badness 10000) detected at line 1075
  []
 
-[33] [34] [35] (/Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.aux)
+[34]
+Underfull \vbox (badness 10000) detected at line 1123
+ []
+
+[35] [36] (/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.aux)
 Package rerunfilecheck Info: File `cmj_DfP_manuscript.out' has not changed.
-(rerunfilecheck)             Checksum: 3E1BF37A0BC1CFB57673F620907FF95C;2040.
+(rerunfilecheck)             Checksum: 9993929AEC4D3F179BBCA95D3F864FB4;2148.
  ) 
 Here is how much of TeX's memory you used:
- 23738 strings out of 479303
- 433533 string characters out of 5867282
- 790082 words of memory out of 5000000
- 39973 multiletter control sequences out of 15000+600000
- 458333 words of font info for 271 fonts, out of 8000000 for 9000
+ 23739 strings out of 479303
+ 432813 string characters out of 5867282
+ 821815 words of memory out of 5000000
+ 39965 multiletter control sequences out of 15000+600000
+ 458945 words of font info for 277 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,12n,103p,1372b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,11n,103p,1371b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/johnnyvenom/Documents/Publications/manuscript_DfP_CMJ/CMJ/cmj_DfP_manuscript.pdf (35 pages, 5724675 bytes).
+Output written on /Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.pdf (36 pages, 3979933 bytes).
 PDF statistics:
- 585 PDF objects out of 1000 (max. 8388607)
- 525 compressed objects within 6 object streams
- 139 named destinations out of 1000 (max. 500000)
- 78121 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 596 PDF objects out of 1000 (max. 8388607)
+ 536 compressed objects within 6 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 82228 words of extra memory for PDF output out of 89155 (max. 10000000)
 
