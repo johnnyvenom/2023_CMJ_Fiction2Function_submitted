@@ -67,9 +67,9 @@
 %%		Three authors:	\lhead{\small Keislar, Castine, and Rundall}
 %%		Four or more:	\lhead{\small Keislar et al.}
 %%
-\lhead{\small \anonymize{Sullivan, Wanderley and Guastavino}}
+% \lhead{\small \anonymize{Sullivan, Wanderley and Guastavino}}
 % \lhead{\small Sullivan, Wanderley and Guastavino}
-% \lhead{\small anonymous}
+\lhead{\small anonymous}
 
 
 %% The package endfloat moves all floats (figures, tables...) to the end of the article, as required for the final version of a CMJ article.
@@ -87,7 +87,7 @@
 %---Document----------
 \begin{document}
 
-% {\cmjTitle Design for Performance: From Fiction to Function}
+
 {\cmjTitle From Fiction to Function: Imagining New Instruments Through Design Workshops}
 \vspace*{24pt}
 
@@ -96,20 +96,20 @@
 % Post will be sent to that address.)
 
 % Author: name
-{\cmjAuthor John Sullivan,\textsuperscript{*\dag} Marcelo M. Wanderley,\textsuperscript{*\dag} and Catherine Guastavino\textsuperscript{*\S}}	% List all authors here
-% {\cmjAuthor author names witheld for anonymity}	% List all authors here
+% {\cmjAuthor John Sullivan,\textsuperscript{*\dag} Marcelo M. Wanderley,\textsuperscript{*\dag} and Catherine Guastavino\textsuperscript{*\S}}	% List all authors here
+{\cmjAuthor author names witheld for anonymity}	% List all authors here
 							% e.g.:
 							% {\cmjAuthor Doug Keislar, Peter Castine, and Jake Rundall}
  
 % Author: address
 \begin{cmjAuthorAddress}
-    \textsuperscript{*}Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT) \\
-    \textsuperscript{\dag}Input Devices and Music Interaction Laboratory (IDMIL) \\
-    \textsuperscript{\S}Multimodal Interaction Laboratory (MIL) \\
-	McGill University\\
-	527 Sherbrooke St. W. Suite A715 \\
-    Montreal, QC H3A1E3 Canada \\
-	\{john.sullivan2, marcelo.wanderley, catherine.guastavino\}@mcgill.ca
+    % \textsuperscript{*}Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT) \\
+    % \textsuperscript{\dag}Input Devices and Music Interaction Laboratory (IDMIL) \\
+    % \textsuperscript{\S}Multimodal Interaction Laboratory (MIL) \\
+	% McGill University\\
+	% 527 Sherbrooke St. W. Suite A715 \\
+    % Montreal, QC H3A1E3 Canada \\
+	% \{john.sullivan2, marcelo.wanderley, catherine.guastavino\}@mcgill.ca
 \end{cmjAuthorAddress}
 
 
@@ -124,86 +124,40 @@ This paper introduces a set of workshops held with expert musicians to imagine n
 
 Digital musical instrument (DMI) design is a broad and interdisciplinary field \citep{Miranda2006a}. Designers engage in the development of new instruments and novel approaches to musical performance (as well as composition and production) for a wide variety of reasons. Even where DMI design is fundamentally research-based, the means and the ends take a variety of forms, ranging from rigorous scientific experimentation to artistically motivated creative practice \citep{Gurevich2016}. Fittingly, the field, and more generally the broad domain of music technology in which it lies, contributes a wide range of outcomes both within and beyond specifically musical applications, such as the development of new technologies for interactive systems \citep{malloch2018generalized} and the advancement of knowledge and theories on technology-mediated artistic performance \citep{Tahlroglu2020}. 
 
-With this work, we were interested to explore a novel method for the design of instruments expressly intended for real-world musical practice. Motivated by previous studies that examined key factors for user engagement \citep{OBrien2008} and long-term use of DMIs in performance \citep{Sullivan2021jnmr, Wallis2013}, a workshop was held with expert musicians that led to a set of tangible design specifications for new performance DMIs. The workshop applied a user-driven approach to the early ideation stages of instrument development through the use of design fiction \citep{Blythe2014} and non-functional prototyping \citep{Pigrem2018} to inspire novel concepts for the new instruments. 
+With this work, we were interested to explore a novel method for the design of instruments expressly intended for real-world musical practice. Motivated by previous studies that examined key factors for user engagement \citep{OBrien2008} and long-term use of DMIs in performance \citep[\emph{reference removed for anonymity} (forthcoming), ][]{Wallis2013}, a workshop was held with expert musicians that led to a set of tangible design specifications for new performance DMIs. The workshop applied a user-driven approach to the early ideation stages of instrument development through the use of design fiction \citep{Blythe2014} and non-functional prototyping \citep{Pigrem2018} to inspire novel concepts for the new instruments. 
 
-This article is structured as follows. First, we review motivations and methods for designing novel DMIs, focusing on existing theories and approaches drawn from Human-Computer Interaction (HCI) and Human-Centered Design (HCD). We then introduce the Design for Performance workshops and present results from the in-workshop activities and thematic analysis of the sessions, which resulted in the set of design specifications. Finally, we discuss the potential of a design fiction approach to develop instruments that are viable for uptake and long-term use by expert musicians in real-world performance, and outline future work for robust evaluation of the methods explored.
-
-% We begin with a review of approaches to, and motivations for, designing novel DMIs. In particular, we consider methods for early stages of ideation and innovation, including user-centered and participatory design approaches drawn from HCI and oriented towards applications for creative practice. The Design for Performance workshops are then introduced, where  expert musicians built non-functional prototypes of imaginary DMIs. Section \ref{sec:results} reports the initial results of the in-workshop activities, and Section \ref{sec:thematic-analysis} provides the results of the post-workshop analysis that was conducted, which led to the generation of a list of design specifications for new instruments. Finally, Section \ref{sec:discussion} discusses the potential efficacy of the design fiction approach towards developing instruments that are viable for uptake and long-term use by expert musicians in real-world performance, and outlines future work for robust evaluation of the methods explored. 
-
+This article is structured as follows. First, we review motivations and methods for designing novel DMIs, focusing on existing theories and approaches drawn from human-computer interaction (HCI) and human-centered design (HCD). We then introduce the Design for Performance workshops and present results from thematic analysis of the sessions, which resulted in the set of design specifications. Finally, we discuss the potential of a design fiction approach to develop instruments that are viable for uptake and long-term use by expert musicians in real-world performance, and outline future work for robust evaluation of the methods explored.
 
 \section{Background}
 \label{sec:background}
 
-% The ongoing design of new musical instruments is nothing new. However the last 200 years have brought about major changes in why and how new instruments are created. In his book \emph{Sonic Writing}, \citet{Magnusson2019} identifies the nineteenth, twentieth, and twenty-first centuries as rough delineations of three music technological epistemes representing acoustic, electronic, and digital paradigms respectively. Each has defined its own themes for instrument design and related musical practice. 
-
-% The acoustic era is characterized by standardization and reproduction, both in instrument design (as with the industrialization and factory/mass production of the piano and other popular instruments) and practice (in which the prevalent mode of performance was the repetition of written scores). New instruments were most commonly derived from existing instruments \citep{Rubine1990}, often in an effort to address limitations of existing instruments, improve usability, extend functionality or implement better technologies in their design and manufacture \citep{Emerson2018}.
-
-% The electronic era, and later the digital era, ushered in tremendous changes in both design and practice. \citet{Magnusson2019} attributes the transition from acoustic as a shift from symbols (as characterized by individual notes written on a score) to signals, in which sounds and user controls are translated into electronic and digital representations that can be easily and flexibly processed, mapped and mixed. Of course, Magnusson's viewpoint seems to be more focused on the written traditions of classical music, and less towards popular styles which were historically based on oral tradition. Nonetheless, these shifts have largely been brought about by technological advancements irrespective of specific musical traditions. 
-
-% The shift to electronic and then digital introduced the ability to record and play back sound, as well as to synthesize entirely new sounds and manipulate them in many ways. The expanded capabilities of electronic and digital instruments, as well as the wide variety of performance behaviors they afford, is well illustrated by the model of music interaction and performance context developed by \citet{Malloch2006} shown in Figure \ref{fig:malloch-model-of-interaction}. Adapted from Rasmussen's model of human information processing \citep*{Rasmussen1986}, the figure illustrates a continuum of performance behaviors and contexts from right to left, moving from conventional instruments (consisting of note-level, real-time, skill-based interactions that would be typical of acoustic playing) to novel performance modes and instruments that are rule- and model-based in operation, made possible by advanced electronic and digital technologies for signal processing, sampling, synthesis, mixing, mapping and more.
-
-% \begin{figure}[htpb]
-%     \centering
-%     \includegraphics[width=0.83\textwidth]{malloch_model_of_interaction.jpg}
-%     \caption[Model of music interaction and performance contexts]{Model of music interaction and performance contexts by \citet{Malloch2006}. Note that \emph{symbol} and \emph{signal} are defined here by the figure's authors and unrelated to the terms as used by \citet{Magnusson2019}.}
-%     \label{fig:malloch-model-of-interaction}
-% \end{figure}
-
-An important aspect of the progression from acoustic to electronic, then digital instruments has been the decoupling of the user input from sound production, leaving the designer free to choose any type of input control and mapping paradigm to control sound production. This freedom may be welcome, as evidenced by the quantity, complexity and diversity of new DMIs that have been developed over the last few decades.
-% An instrument's sound is typically generated and controlled through the various performative actions of its owner.
-% (There are, of course, exceptions to this model, especially in the digital domain, such as instruments that behave autonomously or receive input from arbitrary input data, which are outside of our scope of consideration.)
-% On an acoustic instrument these sound-producing actions, or \emph{instrumental gestures} \citep{Cadoz1988}, are physically and mechanically linked to a sonic result. On the other hand, a digital instrument is not driven by acoustic means and the link between control and sound occurs in the digital realm. Thus, the designer is free to choose any type of input control and any system of mapping controls to sound. From the designer's perspective this ultimate freedom may be liberating, and is reflected in the increasing quantity, complexity and diversity of new DMIs that have been developed over the last few decades. 
-However this may also present a challenge for designers, when ``any bodily gesture can be mapped to any sound and there is no natural paradigm at play that we can relate to'' \citep*[p. 34]{Magnusson2019}. While the issue of mapping is a deep area of research and scholarship in its own right (see \citet{os-mapping-2002} and \citet{cmj-mapping-2014} for in-depth reports), here we focus on two more basic inquiries: First, if few technical and conceptual limitations exist, what motivates the design of new DMIs? And second, what methods can be applied to the development of novel DMIs that will make them appealing for use in artistic practice? 
-
-% what methods are effective in the development of novel DMIs that will make them appealing for use in artistic practice?
+An important aspect of the progression from acoustic to electronic and digital instruments has been the decoupling of the user input from sound production, leaving the designer free to choose any type of input control and mapping paradigm to control sound production. This freedom may be welcome, as evidenced by the quantity, complexity and diversity of new DMIs that have been developed over the last few decades. However this may also present a challenge for designers, when ``any bodily gesture can be mapped to any sound and there is no natural paradigm at play that we can relate to'' \citep*[p. 34]{Magnusson2019}. While the issue of mapping is a deep area of research and scholarship in its own right (see \citet{os-mapping-2002} and \citet{cmj-mapping-2014} for in-depth reports), here we focus on two more basic inquiries: First, if few technical and conceptual limitations exist, what motivates the design of new DMIs? And second, what methods can be applied to the development of novel DMIs that will make them appealing for use in artistic practice? 
 
 \subsection{Diverse motivations for designing new instruments}
 \label{sec:diverse-motivations-for-designing-new-instruments}
 
-There are a wide range of factors that motivate the design of DMIs. In research settings, it may be useful to design DMIs that are specific to a particular experimental context \citep{Marquez-borbon2011}. A survey by \citet{Morreale2017} of DMI designers presenting instruments at the International Conference on New Interfaces for Musical Expression (NIME) found this to be a common approach: out of the 97 instruments included in the study, 38 (39\%) were reported to have been designed as research probes. In these circumstances, the instruments' actual use in real-world performance may be of secondary importance to more immediate research objectives. When considering performance with new instruments in more widespread and particularly non-research contexts, social, cultural and economic factors come into play, in particular market and consumer-driven behaviors that influence trends, popularity and visibility of commercial, off-the-shelf instruments \citep{Theberge1997}. The diversity of design approaches and objectives (in particular between commercial and research-based designs) has been highlighted by \citet{mcpherson2019musical} in a comparison of instruments emerging from different domains including NIME, HCI, and crowdfunding campaigns. 
+There are a wide range of factors that motivate the design of DMIs. In research settings, it may be useful to design DMIs that are specific to a particular experimental context \citep{Marquez-borbon2011}. A survey by \citet{Morreale2017} of DMI designers presenting instruments at the International Conference on New Interfaces for Musical Expression (NIME) found this to be a common approach: out of the 97 instruments included in the study, 38 (39\%) were reported to have been designed as research probes. In these circumstances, the instruments' actual use in real-world performance may be of secondary importance to more immediate research objectives. When considering performance with new instruments in more widespread and particularly non-research contexts, social, cultural, and economic factors come into play, in particular market and consumer-driven behaviors that influence trends, popularity, and visibility of commercial, off-the-shelf instruments \citep{Theberge1997}. The diversity of design approaches and objectives (in particular between commercial and research-based designs) has been highlighted by \citet{mcpherson2019musical} in a comparison of instruments emerging from different domains including NIME, HCI, and crowdfunding campaigns. 
 
 \citet{Emerson2018} focus specifically on the design of DMIs expressly intended for artistic practice, identifying four primary categories of motivation: facilitating greater embodiment in performance, improving audience experience, developing new sounds, and building responsive systems for improvisation. They also highlight different motivations based on the context of participants' practices: those more active in academic settings exhibit more interest new sounds and responsive systems for improvisation, while others who perform in club settings are motivated to improve embodiment and audience experience. While not discussed by the authors, this might also be a correlation to the type of music they perform with their instruments. 
 
 \subsection{DMI design and HCI}
 \label{sec:dmi-design-and-hci}
 
-The diverse motivations for designing new instruments are also reflected in various design approaches and methodologies used. Part of the discourse on DMI design comes from the field of HCI, which over time has evolved from quantitative and rigid strategies \citep{Bodker2015} to paradigms that are better suited to accommodate idiosyncratic approaches that are frequently found in music interaction contexts \citep{Wanderley2002}. Second wave HCI emerged to include perspectives on technology within social, cultural and organizational contexts \citep{kaptelinin2003}, with an emphasis on user-centered, qualitative methods theoretically grounded in situated action, distributed cognition and activity theory \citep{Bodker2006}. The third wave has continued to expand the purview of HCI to accommodate the ubiquitous nature of technology, prioritizing experiences, meaning-making and emergent use \citep{Bodker2015}. This third paradigm is phenomenologically situated with a focus on embodied interaction to embrace multiple interpretations and yield rich understandings \citep{Harrison2007} supported by ethnographic and practice-based research approaches \citep{Bodker2015}.
-
-% The diverse motivations for designing new instruments are also reflected in various design approaches and methodologies used. Much of the prevailing discourse on DMI design research comes from the field of HCI, which can provide prescriptive strategies for for all stages of the design process. Early HCI favored systematic approaches, rigid guidelines and formal methods for designing and evaluating human-machine interfaces \citep{Bodker2015}. Examples in DMI research include the formulation of quantitative methodologies like Fitts's Law and Meyer's Law to evaluate target acquisition in the context of musical interactions \citet{Wanderley2002}, and schema developed by \citet{Vertegaal1996c} to match transducers and feedback modes to specific musical functions. However, limitations to these methods have been highlighted in the design of music interactions, which are often characterized by idiosyncratic approaches, driven by ``precise artistic demands'' \citep*[p. 67]{Wanderley2002} to yield highly creative and innovative results.
-
-% HCI has also evolved to provide more nuanced approaches to design research. Second wave HCI emerged to include perspectives on technology within social, cultural and organizational contexts \citep{kaptelinin2003}, with an emphasis on user-centered, qualitative methods theoretically grounded in situated action, distributed cognition and activity theory \citep{Bodker2006}. The third wave expanded the purview of HCI to accommodate the ubiquitous nature of technology, prioritizing experiences, meaning-making and emergent use \citep{Bodker2015}. The third paradigm of HCI is characterized by \citet{Harrison2007} as phenomenologically situated with a focus on embodied interaction, that can embrace multiple interpretations and yield rich understandings supported by ethnographic and practice-based research approaches.
+The diverse motivations for designing new instruments are also reflected in various design approaches and methodologies used. Part of the discourse on DMI design comes from the field of HCI, which over time has evolved from quantitative and rigid strategies \citep{Bodker2015} to paradigms that are better suited to accommodate idiosyncratic approaches that are frequently found in music interaction contexts \citep{Wanderley2002}. Second wave HCI emerged to include perspectives on technology within social, cultural and organizational contexts \citep{kaptelinin2003} with an emphasis on user-centered, qualitative methods theoretically grounded in situated action, distributed cognition, and activity theory \citep{Bodker2006}. The third wave has continued to expand the purview of HCI to accommodate the ubiquitous nature of technology, prioritizing experiences, meaning-making, and emergent use \citep{Bodker2015}. This third paradigm is phenomenologically situated with a focus on embodied interaction to embrace multiple interpretations and yield rich understandings \citep{Harrison2007}, supported by ethnographic and practice-based research approaches \citep{Bodker2015}.
 
 \subsubsection{User-centered, human-centered and participatory design}
 \label{sec:user-centered-design}
 
-User-centered design (UCD) is a design approach in which the designer should ``ask what the goals and needs of the users are, what tools they need, what kinds of tasks they wish to perform, and what methods they prefer to use'' \citep[\citeauthor{Norman1988} \citeyear{Norman1988}, as cited in][p. 44]{El-shimy2014}. 
-% UCD is less of a method in and of itself than a high level guideline under which several design strategies fall such as those in \citet{greenberg2011sketching}. 
-% Attitudes towards UCD have evolved over time and, while UCD is still widely used in practice and reference, human-centered design (HCD) has emerged as a subtle but important variation. \citet{Norman2013} describes HCD as a design philosophy and set of procedures that are complementary to more specific areas of focus such as experience design, industrial design and interaction design.
-% \footnote{HCD is also formally defined as an ISO (International Organization for Standardization) standard, however UCD is not.} 
-% that add ``deep consideration and study of human needs to the design process, whatever the product or server, whatever the focus'' \citep*[p. 10]{Norman2013}. The \emph{human}-centered scope of HCD provides a the opportunity for wider consideration and different contexts of people in product and interaction design, instead of ``a narrower focus on peoples roles as \emph{users}'' \citep[p. 45]{Steen2011}.
-% Human-centered design (HCD) \citep*{Norman2013} has evolved from UCD
-% UCD is less of a method in and of itself than a high level guideline under which several design approaches fall. Human-centered design (HCD) is a second term popularized by Norman in \citep*{Norman2013}. 
-Human-centered design has emerged as a subtle but important variation \citep{Norman2013}, allowing for a broader consideration of people with regards to design, instead of ``a narrower focus on peoples' roles as \emph{users}'' \citep[p. 45]{Steen2011}. This corresponds with trends in HCI: ``Instead of focusing on how specific tools can be designed to help users accomplish specific tasks, the human-centered perspective encourages developers to strive for a better understanding of how people live in the world, and to design systems accordingly'' \citep[p. 45]{El-shimy2014}. In DMI design, the concept of ``musician-as-user'' has been challenged by \citet{Rodger2020}, who argue 
-that there is no prototypical `user' for a given instrument and characterizing musical activity is highly dependent on the context in which it occurs.
+User-centered design (UCD) requires the designer to ``ask what the goals and needs of the users are, what tools they need, what kinds of tasks they wish to perform, and what methods they prefer to use'' \citep[\citeauthor{Norman1988} \citeyear{Norman1988}, as cited in][p. 44]{El-shimy2014}. Human-centered design has emerged as a subtle but important variation \citep{Norman2013}, allowing for a broader consideration of people with regards to design, instead of ``a narrower focus on peoples' roles as users'' \citep[p. 45]{Steen2011}. This corresponds with trends in HCI: ``Instead of focusing on how specific tools can be designed to help users accomplish specific tasks, the human-centered perspective encourages developers to strive for a better understanding of how people live in the world, and to design systems accordingly'' \citep[p. 45]{El-shimy2014}. In DMI design, the concept of ``musician-as-user'' has been challenged more recently by \citet{Rodger2020}, who argue that there is no prototypical `user' for a given instrument, and characterizing musical activity is highly dependent on the context in which it occurs.
 
 Participatory design (PD) is an HCD approach that became well-established with second-wave HCI \citep{Bodker2015} and has continued to be relevant in third-wave HCI as well \citep{Muller2012}. It is predicated on the full participation of end-users through all stages of the design process \citep{Steen2011}, and is primarily concerned with the \emph{tacit knowledge} of the involved participants which, according to \citet{Spinuzzi2005}, is hard to formalize and had been missing from early HCI. In DMI research, PD methods have been applied in the design and evaluation of Theremin-based controllers \citep{Geiger2008}, audio-haptic interfaces for the visually impaired \citep{Metatla2016}, and more generally to investigate music interaction design based on conceptual metaphor theory \citep{wilkie2013towards} and digital musical interaction ecologies \citep{Fyans:2012}.
 
-It is important to note that PD is rooted in social activism and was originally envisioned as a way ``to rebalance power and agency among managers and workers'' \citep[p. 1]{Bannon2018}. Some current PD practices have been critiqued as merely UCD by a different name, lacking the original political and activist contexts \citep{Bannon2018}. Our own work presented here uses methods that fall under the PD umbrella but without any specific political motivation; therefore we identify our approach as HCD and refrain from characterizing it as full PD in deference to these objections.
-
-% \begin{quote}
-%     It is a far cry from earlier work in the field, where Participatory Design not only sought to incorporate users in design, but also to intervene upon situations of conflict through developing more democratic processes. \citep[p. 2]{Bannon2018}. 
-% \end{quote}
-
-% We note that our own work presented here uses HCD methods that fall under the PD umbrella but without any specific political motivation; therefore we present our approach as HCD and refrain from characterizing it as full PD in deference to these aforementioned objections raised by \citeauthor{Bannon2018}. 
-
+It is important to note that PD is rooted in social activism and was originally envisioned as a way ``to rebalance power and agency among managers and workers'' \citep[p. 1]{Bannon2018}. Some current PD practices have been critiqued as merely UCD by a different name, lacking the original political and activist contexts \citep{Bannon2018}. Our own work presented here uses methods that fall under the PD umbrella but without any specific political motivation; therefore we identify our approach as HCD in deference to these objections.
 
 \subsubsection{Design frameworks and novel approaches to idea generation}
 \label{sec:design-frameworks}
 
-Many different frameworks have been developed for the design and evaluation of new DMIs. Earlier examples include models based on categories of musical interaction \citep{Bongers2000a}, structural components of DMIs \citep{Wanderley2004}, addressing diverse needs of different performers \citep{Jorda2004, Jorda2004b}, interdisciplinary approaches combining music performance, HCI and digital technology \citep{Overholt2009}, and user experience tracking \citep{fmorreale:2014}. Evaluation frameworks include include those based on user tasks \citep{Wanderley2002}, the roles of various stakeholders \citep{OModhrain2011a} and formal HCI techniques for functionality, usability and user experience assessments \citep{Young2015a}.
-
-% \subsection{Novel approaches to idea generation and prototyping}
-% \label{sec:novel-approaches-to-idea-generation-and-prototyping}
+Many different frameworks have been developed for the design and evaluation of new DMIs. Examples include models based on categories of musical interaction \citep{Bongers2000a}; structural components of DMIs \citep{Wanderley2004}; diverse needs of different performers \citep{Jorda2004, Jorda2004b}; interdisciplinary approaches combining music performance, HCI, and digital technology \citep{Overholt2009}; and user experience tracking \citep{fmorreale:2014}. Evaluation frameworks include include those based on user tasks \citep{Wanderley2002}; the roles of various stakeholders \citep{OModhrain2011a}; and formal HCI techniques for assessing functionality, usability, and user experience \citep{Young2015a}.
 
 While high level design frameworks may be helpful in formulating a conceptual approach, they are generally not oriented towards specific design tools and methods or their use in artistic contexts. For our own work, we wish to develop effective strategies for developing new instruments that will be appealing for musicians to incorporate into their real-world creative practice. In particular, we look at two user-driven approaches to generating ideas for new designs: a physical DMI prototyping toolkit and a design workshop methodology. 
 
@@ -211,24 +165,6 @@ While high level design frameworks may be helpful in formulating a conceptual ap
 \label{sec:probatio}
 
 Probatio is a system developed by \citet{Calegario2017} that is comprised of a set of physical modules and accompanying methodology for exploring ideas and developing proof-of-concept DMI prototypes. It is meant to address a few important issues that arise in DMI design: for one, it provides functional constraints to limit the endless possibilities and increased complexity that arises from the separated user input and sound production components of DMIs, which can lead to ``creative paralysis'' \citep{Magnusson2010}. For another, it can help speed up and eliminate bottlenecks for iterative design, facilitating rapid design and evaluation cycles. The Probatio hardware consists of several control blocks, each featuring a different type of input control (ie., buttons, slider, crank, etc.), and different bases and structural supports that can accommodate variable configurations of the control blocks. The hardware is engineered so that the blocks attach magnetically and electrical connections are made automatically. Control signals are then mapped to sound synthesis software, making the prototype instantly playable as soon as one or more blocks are connected. An example Probatio prototype is shown in Figure \ref{fig:probatio-assembly}.
-
-% \begin{figure}[htbp]
-%     \centering
-%     \begin{subfigure}[t]{0.485\textwidth}
-%         \centering
-%         \includegraphics[width=1\textwidth]{probatio_assembly.jpg}
-%         \caption{}
-%         \label{fig:probatio-assembly}
-%     \end{subfigure}
-%     ~
-%     \begin{subfigure}[t]{0.485\textwidth}
-%         \centering
-%         \includegraphics[width=1\textwidth]{probatio_chart.jpg}
-%         \caption{}
-%         \label{fig:probatio-chart}
-%     \end{subfigure}
-%     \caption{Probatio prototype constructed from base, structural support and multiple control modules (a); morphological chart suggesting new prototypes by combining features of existing instruments (b) \citep{Calegario2020}.}
-% \end{figure}
 
 \begin{figure}[htbp]
     \begin{minipage}{0.49\textwidth}
@@ -245,187 +181,53 @@ Probatio is a system developed by \citet{Calegario2017} that is comprised of a s
     \end{minipage}
 \end{figure}
 
-The methods that guide the use of the Probatio toolkit are based on Calegario's concept of \emph{instrumental inheritance} in which aspects of existing instruments such as physical structures, playing techniques and specific types of input controls can be explored in different combinations and configurations, yielding entirely new instruments. A morphological chart \citep{Cross2000}, shown in Figure \ref{fig:probatio-chart}, assists the designer in this process, presenting different postures and controls that can be constructed with the Probatio hardware.
+The methods that guide the use of the Probatio toolkit are based on Calegario's concept of \emph{instrumental inheritance} in which aspects of existing instruments such as physical structures, playing techniques, and specific types of input controls can be explored in different combinations and configurations, yielding entirely new instruments. A morphological chart \citep{Cross2000}, shown in Figure \ref{fig:probatio-chart}, assists the designer in this process, presenting different postures and controls that can be constructed with the Probatio hardware.
 
 \subsubsection{Magic machines and design fiction}
 
 Another compelling approach to idea generation and prototyping for DMI design comes with ``Magic Machine'' workshops developed by \citet{Andersen2017}. The workshops ``make use of the notion of technology as a `magical unknown' as the starting point for a range of workshop techniques that begin with material exploration'' \citep[p. 4971]{Blythe2016}. In them, participants are prompted to make non-functional low-fi prototypes out of generic crafting materials like cardboard, wood, string, and glue. Once finished, they present their creations, demonstrating their use in imagined scenarios.
 
-The Magic Machine workshops have some basis in design fiction, where concepts and problems can be explored through the development of imaginary scenarios and ``fantasy prototypes'' \citep{Sterling2009}. Importantly, the artefacts that are generated (the non-functional prototypes) are not overly meaningful in and of themselves, and the ultimate aim is not solve any given problem. Rather, the processes of creating and engaging with the ``magical unknown'' serves ``to give temporary body to concerns and questions [and] to consider the potential reality of a world in which such a thing might exist'' \citep[p. 4971]{Blythe2016}. Andersen has run the workshops is a variety of of contexts for both adults and children, including workshops for the design of new (imagined) musical instruments. The workshop was also utilized by \citet{Lepri2019} in a study that explored diverse values and priorities of different music cultures, backgrounds and contexts.
+The Magic Machine workshops have some basis in design fiction, where concepts and problems can be explored through the development of imaginary scenarios and ``fantasy prototypes'' \citep{Sterling2009}. Importantly, the artifacts that are generated (the non-functional prototypes) are not overly meaningful in and of themselves, and the ultimate aim is not solve any given problem. Rather, the processes of creating and engaging with the ``magical unknown'' serves ``to give temporary body to concerns and questions [and] to consider the potential reality of a world in which such a thing might exist'' \citep[p. 4971]{Blythe2016}. Andersen has run the workshops is a variety of of contexts for both adults and children, including workshops for the design of new (imagined) musical instruments. The workshop has been used by other DMI researchers as well, including a study by \citet{Lepri2019} that explored diverse values and priorities of different music cultures, backgrounds, and contexts.
 
 \subsubsection{Towards design for performance}
 \label{towards-design-for-performance}
 
 The Probatio toolkit and Magic Machine workshops present dynamic methods for early ideation stages of DMI design that we are interested in applying to our own work. The workshops offer a creative approach for generating ideas free from technological or practical constraints, while Probatio provides a clearly defined set of tools to quickly construct and evaluate prototypes. 
-% The next section reports on our own workshop that was styled after the Magic Machines workshop.
-% It includes additional details about Andersen's methods and our own customizations to orient the activities to address our specific goals and inquiries. 
-% In the discussion that follows we consider how our own methodology can be complementary to the well-structured Probatio approach to ideation and functional prototyping, and if and where the two can overlap. 
 
 \section{The Design for Performance workshop}
 \label{sec:design-for-performance-workshop}
 
-The Design for Performance workshop was developed to involve expert musicians in the early stage ideation of new instruments, and draws from a variety of general methods from HCD and PD that have been mentioned so far: design workshops, non-functional and low-fidelity prototyping, and design fiction. 
-% In this section we introduce the Design for Performance workshop, where expert musicians envisioned and crafted fictional musical instruments. The structure draws from a variety of general methods from UCD and PD that have been mentioned so far: design workshops, non-functional and low-fidelity prototyping, iterative design, and design fiction. The workshop is envisioned as part of a multi-stage design study, with additional phases of the project to follow (See Chapter \ref{ch4-cha} for the workshop results applied in the design of new DMIs, and Section \ref{sec:limitations-and-future-work} for a discussion on current limitations and future work.)
-The structure is based on Andersen's Magic Machine workshops but is revised to direct the outcomes towards the generation of design specifications that could be applied to the development of new performance-ready DMIs. 
-% Table \ref{tab:workshop-activities} provides a side by side comparison of the the Design for Performance and Magic Machine workshop activities (in particular Andersen's musical instrument design workshops \citep*[pp. 30-53]{Andersen2017}) and notes variations between them. In Section \ref{sec:workshop-activities} we describe each activity in detail.
+The Design for Performance workshop was developed to involve expert musicians in the early stage ideation of new instruments, and draws from a variety of general methods from HCD and PD that have been mentioned so far: design workshops, non-functional and low-fidelity prototyping, and design fiction. The structure is based on Andersen's Magic Machine workshops but is revised to direct the outcomes towards the generation of design specifications that could be applied to the development of new performance-ready DMIs. 
 
-% \begin{table}[thbp]
-%     \footnotesize
-%     \begin{center}
-%         \begin{tabular}{ l c c L{5cm} L{5cm} }
-% 			% % \hline % \toprule
-% \hline
-% 			\hline
-%             \textbf{Activity} &
-%             \textbf{DP} &
-%             \textbf{MM} &
-%             \textbf{Description} &
-%             \textbf{Variations} \\
-% 			% % \hline % \midrule
-% \hline
-% 			\hline
-%             Introduction & X & X 
-%             & Introduce workshop and set out rules 
-%             & \\ 
-%             \hline
-%             Prompt & X & X 
-%             & Draw the imagined sound/music you wish to create.
-%             & MM: The prompt is drawn in permanent marker on hand. DP: Prompt is drawn on index card. \\
-%             \hline
-%             Build & X & X 
-%             & Create non-functional instrument prototypes from provided crafting materials
-%             & \\
-%             \hline
-%             Present & X & X 
-%             & Each participant presents their instrument with demonstration and explanation.
-%             & DP: During presentations, the facilitator takes note of defining elements of the instrument and adds them to a whiteboard underneath category headings. \\
-%             \hline
-%             Discuss (1) & X & X
-%             & A short discussion follows each presentation to explore the instrument and its design.
-%             & DP: Presenter and other participants suggest additional elements to be added to the whiteboard. \\
-%             \hline
-%             Evaluate & X &  
-%             & Participants dot-vote the elements they find most compelling in the design of a new instrument. 
-%             & DP only. \\
-%             \hline
-%             Discuss (2) & X &  
-%             & A group discussion discussion is held to reflect on voted elements and the prospects for their application in design. 
-%             & DP only. \\
-%             \hline
-%             Document & & X 
-%             & Each instrument is photographed and documented.
-%             & MM only. (In DP, photographs are taken during presentations.) \\
-% 			% % \hline % \bottomrule
-% \hline
-% 			\hline
-%         \end{tabular}
-%     \end{center}
-%     \caption[Design for Performance and Magic Machine workshop activities]{Comparison of activities for the Design for Performance (DP) and Magic Machine (MM) workshops, noting any significant differences between the activities.}
-%     \label{tab:workshop-activities}
-% \end{table}
-
-The context of the Design for Performance workshops marks an important shift from Andersen's Magic Machine workshops, which are specifically oriented towards building diverse design knowledge and complex understandings ``about technology, rather than of technology'' \citep[p. 1]{Andersen2019}. Our approach seeks to find a middle ground between theoretical knowledge and functional design, connecting the diversity and creative freedom fostered by the Magic Machine activities with a holistic design ecology from ideation to finished product. In this way, the Design for Performance workshop is envisioned as a design tool that can elicit preliminary ideas from a group of expert practitioners and translate them into tangible elements that designers can work with. This may be especially valuable in the DMI design space, where idiosyncratic approaches and highly personalized designs are common, and widespread adoption of new DMIs is limited.
-
-% A detailed schedule and script (included in Appendix \ref{axC-sec:schedule-and-script}) was drafted based on Andersen's recommendations to run the workshop at a quick pace and keep a tight timeline. This was found to be an effective strategy to alleviate any potential anxieties or fears of failure that participants could experience during the creative and open-ended design activities \citep{Andersen2017}.
-
-% \subsection{Crafting materials}
-% \label{sec:crafting-materials}
-
-% The main activity of the workshop is for participants to design fictional musical instruments out of provided materials, and the type of materials used can have a large impact on the outcomes of the workshop. Through several incarnations of the Magic Machine workshops (that have utilized an array of different crafting materials, from wood and paper to gumdrops) \citet{Andersen2019} provides recommendations and rationales for the selection of materials. Importantly, generic and potentially absurd or impractical qualities of the materials chosen are essential to the activity. In being tasked with building something concrete out of ill-suited materials, the participant is freed from working within practical constraints or following known traditional methods. Furthermore, materials have the potential to influence the design outcome: particular objects or shapes may suggest typical or obvious uses, which should be avoided. 
-
-% In the case of musical instrument design, materials may have sound-producing properties that a participant may want to apply in their design. However, Andersen specifies that materials should not be utilized for their acoustic qualities. In this way, the prototypes are explicitly \emph{non-functional} and the design activity is oriented towards the imagining of abstract features and novel forms without concern for feasibility or technical implementation. 
-
-% For the Design for Performance workshop, we selected a wide range of basic crafting and stationary items purchased from a dollar store, including paper, posterboard, colored index cards and sticky notes, rubber bands, string, wire, popsicle sticks, paper plates, cups, tape, and glue. 
-
-%%%%%%%%% delete below %%%%%%%%%%
-% As our goals differed from those of the Magic Machine workshops and we were interested in in tangible design outcomes, we were open to more conventional designs and included some items that might be predictable in their use. For example, each participant was given a large posterboard from which structural shapes could be fashioned, while index cards, colored tape and magic markers would make it easy for participants to draw in graphical user interfaces (GUIs) and other features typical of DMIs.
-
-% For the Design for Performance workshop, we selected a wide range of basic items purchased from a dollar store. Materials included:
-
-% \begin{multicols}{4}
-%     \begin{itemize}[noitemsep]
-%         \item posterboard
-%         \item index cards
-%         \item sticky notes
-%         \item string
-%         \item wire
-%         \item rubber bands
-%         \item popsicle sticks
-%         \item plastic mesh
-%         \item paper plates
-%         \item plastic cups
-%         \item magic markers
-%         \item tape
-%         \item glue
-%         \item paper clips
-%         \item scissors
-%         \item utility knives
-%     \end{itemize}
-% \end{multicols}
+The context of the Design for Performance workshops marks an important shift from Andersen's Magic Machine workshops, which are specifically oriented towards building diverse design knowledge and complex understandings ``about technology, rather than of technology'' \citep[p. 1]{Andersen2019}. Our approach seeks to find a middle ground between theoretical knowledge and tangible design, connecting the diversity and creative freedom fostered by the Magic Machine activities with a holistic design ecology from ideation to finished product. In this way, the Design for Performance workshop is envisioned as a design tool that can elicit preliminary ideas from a group of expert practitioners and translate them into tangible elements that designers can work with. This may be especially valuable in the DMI design space, where idiosyncratic approaches and highly personalized designs are common, and widespread adoption of new DMIs is limited.
 
 \subsection{Pilot}
 \label{sec:pilot}
 
-A pilot test was carried out to run the full workshop from start to finish. Six master's students who were enrolled in a graduate seminar about musical interface design participated. The session was facilitated by the first author who was assisted by another master's student.
-% \footnote{The assistant, Collin Wang, was a master's student supervised by the last author.} 
-The session was observed by two colleagues of the facilitator (a music technology Ph.D. student and visiting professor). After the session an informal discussion was held with the participants and observers to get feedback and take suggestions for any improvements that could be made. All generally agreed on the activities and format, while details for minor changes were noted and incorporated into the final structure.  
-
-% While not a focus of this specific study, an interesting contrast between the pilot and official sessions is noted in that the pilot participants were all well-versed in DMI design research. On the other hand, the participants who took part in the official workshops were selected for their experience as active performing musicians and not required to have any preexisting knowledge of DMI design (though some did have some design experience too). As the pilot study was constructed to test and rehearse the workshop design, and not for data collection and analysis, no further investigation was made around this at the present. However, it suggests a compelling direction to explore for future workshops, and we can envision potentially different outcomes between designers and non-designers. 
+A pilot test was carried out to run the full workshop from start to finish. Six master's students who were enrolled in a graduate seminar about musical interface design participated. The session was facilitated by the first author who was assisted by another master's student. The session was observed by two colleagues of the facilitator (a music technology Ph.D. student and visiting professor). After the session an informal discussion was held with the participants and observers to get feedback and take suggestions for any improvements that could be made. All generally agreed on the activities and format, while details for minor changes were noted and incorporated into the final structure.  
 
 \subsection{Participant recruitment}
 \label{sec:participant-criteria-and-selection}
 
-% \subsubsection{Research ethics and participant consent}
-% \label{sec:research-ethics-and-participant-consent}
-
-% Before recruitment began, the Design for Performance workshop was reviewed and approved by the Research Ethics Board Office of McGill University (certificate included in Appendix \ref{axD:reb-ethics-certificates}). This approval requires that studies involving human participants follow specific guidelines for research ethics, to ensure safe handling of data and participants' right to privacy and informed consent. While the participants' names, personal information and gathered data would be anonymized, the proceedings would be photographed and video and audio recorded for later analysis and documentation. Participants would be asked permission to use their likenesses (photos, videos or audio) to be used in public disseminations, including this report. Individuals choosing to opt out would still be welcome to participate fully in the workshop and with their recorded presence removed from any publicized documentation.
-
-% \subsubsection{Criteria and recruitment}
-% \label{sec:criteria-and-recruitment}
-
 As the workshop was focused on the design of DMIs for use in live performance and intended to be held with expert musicians, we identified three main criteria for prospective participants: 1) they should use, or at least be familiar with, DMIs; 2) they should maintain an active performance practice (performing publicly at least five times per year); 3) their performance practice should be related to styles in which DMIs are typically used, such as electroacoustic and experimental styles.
 
-A call for participation was circulated through local academic and performance community mailing lists that were likely to reach individuals matching our criteria. 
-% \begin{itemize}[noitemsep]
-%     \item McGill University Music Technology Area Graduate Students
-%     \item Université de Montréal Music Faculty Students
-%     \item Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT)
-%     %\footnote{\url{https://www.cirmmt.org}} 
-%     Members and Students
-%     \item Eastern Bloc New Media and Production Centre 
-%     \footnote{\url{https://easternbloc.ca}}
-%     \item Montréal Contemporary Music Lab\footnote{\url{https://www.labomontreal.com}}
-% \end{itemize}
-Interested parties were invited to complete an online prescreening questionnaire. Recruitment lasted for two weeks and 25 responses were received. 15 individuals met the criteria and were invited to participate, of which ten accepted. To accommodate schedules, the workshop was divided into two sessions, with three participants in session A and seven in the session B. 
-% Profiles of each participant are included in Appendix 1, including information gathered from the prescreening questionnaire and additional information provided from self-introductions at the beginning of the sessions. 
-The workshop activities and procedures were reviewed and approved by the Research Ethics Board Office of \anonymize{McGill University} and all participants read and signed a form of informed consent before beginning. 
-%  to ensure that all applicable guidelines were followed for research ethics, safe handling of data, and participants' right to privacy. Before the start of the workshop participants were asked to read and sign an information and consent form that outlined how the workshop would run and explained their rights as participants. Permission was requested for video and audio recording the sessions, as well as for taking photos, to which all participants agreed.
+A call for participation was circulated through local academic and performance community mailing lists that were likely to reach individuals matching our criteria. Interested parties were invited to complete an online prescreening questionnaire. Recruitment lasted for two weeks and 25 responses were received. 15 individuals met the criteria and were invited to participate, of which ten accepted. To accommodate schedules, the workshop was divided into two sessions, with three participants in session A and seven in the session B. 
+
+The workshop activities and procedures were reviewed and approved by the Research Ethics Board Office of {\emph{university name removed for anonymity}}
+% McGill University
+and all participants read and signed a form of informed consent before beginning. 
 
 It should be noted that three of the participants were known by the authors. In particular, P09 is an instrumental performer and regular collaborator with the first author. Given the limited size of the local DMI community, we determined that it should not disqualify them from participation if they met the defining criteria.
 
 \subsection{Workshop activities}
 \label{sec:workshop-activities}
 
-A schedule for the workshop had been developed based on Andersen's recommendations to run the workshop at a quick pace and keep a tight timeline. This was found to be an effective strategy to alleviate any potential anxieties or fears of failure that participants could experience during the creative and open-ended design activities \citep{Andersen2017}. The sessions were held on consecutive days in a spacious and well lit conference room at the \anonymize{Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT) at McGill Universtity}. Tables were arranged together so that participants sat around the outside facing each other. A variety of crafting materials was  arranged on a separate table and covered with a cloth when the participants arrived. A videocamera was set up to record the sessions.
+A schedule for the workshop had been developed based on Andersen's recommendations to run the workshop at a quick pace and keep a tight timeline. This was found to be an effective strategy to alleviate any potential anxieties or fears of failure that participants could experience during the creative and open-ended design activities \citep{Andersen2017}. The sessions were held on consecutive days in a spacious and well lit conference room at 
+{\emph{location removed for anonymity}}.
+% the Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT) at McGill University. 
+Tables were arranged together so that participants sat around the outside facing each other. A variety of crafting materials was arranged on a separate table and covered with a cloth when the participants arrived. A videocamera was set up to record the sessions.
 
 The first author acted as the facilitator and was aided by the same assistant from the pilot session. Each session began with a welcome and introduction by the facilitator, then participants were asked to briefly introduced themselves and give a short summary of their musical practice and experience with DMIs. 
-
-% \subsubsection{Introduction}
-% \label{sec:introduction}
-
-% Before starting the workshop activities participants were asked to read and sign an information and consent form that outlined how the workshop would run and explained their rights as participants. Permission was requested for video and audio recording the sessions, as well as for taking photos, to which all participants agreed.
-
-% Each session began with a welcome and introduction by the facilitator. Participants were asked to briefly introduced themselves and give a short summary of their musical practice, as well as any interest or experience they had in instrument design. 
-
-% The workshop began with the facilitator introducing themselves and the assistant, and giving additional context and background about the workshop and related research. Then participants went around the room and introduced themselves and gave a short summary of their musical practice, as well as any interest or experience they had in instrument design. Finally, the facilitator presented five guidelines to establish the intended mood for the ensuing activities: 
-
-% \begin{enumerate}[noitemsep]
-%     \item There is no right or wrong.
-%     \item The activities are short, so move quickly.
-%     \item Be honest, respectful, and supportive to yourself and the other participants. 
-%     \item Make sure everybody can be heard. 
-%     \item Be creative, enjoy the process and have fun with it!
-% \end{enumerate}
 
 \subsubsection{Activity 1: Prompt}
 \label{sec:activity-1-prompt}
@@ -437,127 +239,52 @@ The workshop activities began with a prompt. Participants were asked to think of
 Andersen stipulates two important functions that this activity serves. First, it provides the specific context for the workshop focus. 
 % In this case, the focus is on designing new musical instruments, therefore 
 Drawing the participants' attention to making music in novel and unexpected ways (as suggested by the inherent absurdity of \emph{drawing} music) oriented focus to thinking creatively about instruments and performance. Second, the short activity serves as a preliminary task to complete, ``an initial goal\ldots that tests competence and establishes confidence, acting as an on-ramp to an experience'' \citep[p. 5]{Andersen2019}. This eases the transition into to the more substantial design activity that follows, as one creative task has already been completed. 
-%Furthermore, any pressures or anxieties that may arise around perceived value or quality in participants' creative outputs are minimized by the short time frame they are given to create their drawings. 
 
 \subsubsection{Activity 2: Crafting non-functional prototypes}
 \label{sec:activity-2-crafting-non-functional-prototypes}
 
 In this main activity of the workshop, ``the content of the prompt must be translated into an imagination of the device that produces it'' \citep[p. 5]{Andersen2019}. The use of rudimentary crafting materials moves the focus away from producing high resolution or even technically feasible designs. Instead, the participants are asked to envision and craft a purely fictional instrument that they would want to use, and the materials (and especially their unsuitability for functional instrument design) allow the participant to operate freely and instinctively without concern for implementation or technical constraints.
 
-Participants were directed to construct an instrument with which they could play the music they had drawn, using a selection of basic crafting materials that included poster board, colored index cards, sticks, disposable plates and cups, tape, markers, string and wire. The facilitator emphasized that they were to build \emph{non-functional} prototypes, and that they should not select or utilize materials for their acoustic properties, nor should they be concerned with technical feasibility. The groups were given 30 minutes to complete the activity. Figure \ref{fig:instrument-building} shows the groups building their prototypes.
+Participants were directed to construct an instrument with which they could play the music they had drawn, using the basic crafting materials provided that included items such as poster board, colored index cards, sticks, disposable plates and cups, tape, markers, string, and wire. The facilitator emphasized that they were to build non-functional prototypes and that they should neither utilize materials for their acoustic properties nor be concerned with technical feasibility. The groups were given 30 minutes to complete the activity. Figure \ref{fig:instrument-building} shows the groups building their prototypes.
 
 \begin{figure}[t]
     \centering
     \begin{subfigure}[]{1\textwidth}
         \centering
         \includegraphics[width=1\textwidth]{dfp_nfp_A.jpg}
-        \caption{}
-        % \label{fig:keybox-cad}
+        \caption{Session A}
+        \label{fig:keybox-cad}
     \end{subfigure}
     \par\bigskip
     \begin{subfigure}[]{0.59\textwidth}
         \centering
         \includegraphics[width=1\textwidth]{dfp_nfp_B.jpg}
-        \caption{}
-        % \label{fig:stringbox-cad}
+        \caption{Session B}
+        \label{fig:stringbox-cad}
     \end{subfigure}
     \begin{subfigure}[]{0.4\textwidth}
         \centering
         \includegraphics[width=1\textwidth]{dfp_nfp_B_P4.jpg}
-        \caption{}
-        % \label{fig:tapbox-cad}
+        \caption{Participant P04 in Session B}
+        \label{fig:tapbox-cad}
     \end{subfigure}
-    \caption{Participants crafting non-functional instrument prototypes in Activity 2: Session A (a); Session B (b); participant P04 in Session B (c).}
+    \caption{Participants crafting non-functional instrument prototypes in Activity 2.}
     \label{fig:instrument-building}
 \end{figure}
 
-% The following instructions were given to introduce the activity:
-
-% \begin{itemize}[noitemsep]
-%     \item Using the provided materials, you are asked to build an instrument with which you could play the music that you drew.
-%     \item Bear in mind that you are building \emph{non-functional} prototypes. Your instruments do not need to sound and, specifically, you should not select or utilize materials for their acoustic properties, nor should you be concerned with technical feasibility. 
-% \end{itemize}
-
-To assist the participants in developing their ideas into tangible designs, we introduced an informal list of eight considerations to refer to while building their instruments, which were written on a large whiteboard. The considerations are divided into two categories: 1) high-level operational qualities and general characteristics that could describe the instrument's intended use (\emph{functionality}, \emph{playability}, \emph{musicality}, \emph{performance context}), and 2) low-level essential features and fundamental components of the design (\emph{physical form and ergonomics}, \emph{interaction methods}, \emph{sound production}, \emph{feedback}).
-% \begin{itemize}[noitemsep]
-%     \item \textbf{Operational qualities:} \emph{functionality}, \emph{playability}, \emph{musicality}, \emph{performance context}. 
-%     \item \textbf{Design features and fundamental components:} \emph{physical form and ergonomics}, \emph{interaction methods}, \emph{sound production}, \emph{feedback}
-% \end{itemize}
-While some of the considerations can be classified as functional and non-functional requirements (as defined by requirements engineering \citep{Glinz2007} and commonly employed in systems design), it is important to point out that these elements were empirically chosen based on our own prior knowledge and experience in DMI design, and left open-ended to provide helpful points of reference through the activity. 
-% The considerations were presented along with their descriptions before the activity began, then written on a large whiteboard while the participants worked.
-
-% \begin{table}[htbp]
-%     \caption{Design considerations given for non-functional prototyping activity.}
-%     \begin{center}
-%         \begin{tabular}{L{3cm} L{3cm} L{9cm} }
-%             % \hline % \toprule
-% \hline
-%             \textbf{Category} & \textbf{Consideration} & \textbf{Description} \\
-%             % \hline % \midrule
-% \hline
-%             \multirow{4}{3cm}{Operational qualities and usage} 
-%             & Functionality 
-%             & How does the instrument function? 
-%             \\ 
-%             \vspace{0.75em}
-%             & Playability 
-%             & How do you play it? 
-%             \\
-%             \vspace{0.75em}
-%             & Musicality 
-%             & What does it sound like, and how does it facilitate musicality? 
-%             \\
-%             \vspace{0.75em}
-%             & Context 
-%             & Where and how will this be used? (types of venues, solo or in groups, etc.)
-%             \\ 
-%             % \hline % \midrule
-% \hline
-%             \multirow{4}{3cm}{Design features and fundamental components} 
-%             & Physical form and ergonomics
-%             & What are the instrument's defining physical characteristics, life size, shape, orientation and posture for the performer?
-%             \\
-%             \vspace{0.75em}
-%             & Interaction methods
-%             & What kind of controls and user inputs does it have?
-%             \\
-%             \vspace{0.75em}
-%             & Sound production
-%             & How is the sound produced? (ie., synthesis, sampling, live audio processing)
-%             \\
-%             \vspace{0.75em}
-%             & Feedback
-%             & What kind(s) of feedback will the instrument provide to the performer?
-%             \\  
-%             % \hline % \bottomrule
-% \hline
-%         \end{tabular}
-%     \end{center}
-%     \label{tab:design-considerations}
-% \end{table}
-
-% The participants were initially given 25 minutes to complete the activity (pictured in Figure \ref{fig:instrument-building}), though extra time could be allotted if desired. In both sessions, five extra minutes were added, making the total length of the activity 30 minutes. 
-
+To assist the participants in developing their ideas into tangible designs, we introduced an informal list of eight considerations to refer to while building their instruments, which were written on a large whiteboard. The considerations are divided into two categories: (1) high-level operational qualities and general characteristics that could describe the instrument's intended use (\emph{functionality}, \emph{playability}, \emph{musicality}, \emph{performance context}), and (2) low-level essential features and fundamental components of the design (\emph{physical form and ergonomics}, \emph{interaction methods}, \emph{sound production}, \emph{feedback}). While some of the considerations can be classified as functional and non-functional requirements (as defined by requirements engineering \citep{Glinz2007} and commonly employed in systems design), it is important to point out that these elements were empirically chosen based on our own prior knowledge and experience in DMI design, and left open-ended to provide helpful points of reference through the activity. 
 
 \subsubsection{Activity 3: Presentations and key element identification}
 \label{sec:activity-3-presentations}
 
-Following the construction, each participant gave a three minute presentation of their instrument. 
-% They began with a description of the music they had drawn, then described and demonstrated their instrument. 
-The participants were encouraged to explain the links between the music on their index cards and the instruments, which helped to orient the presentations on the imagined outcomes rather than the technical details of the fabricated designs. A two minute group discussion followed each presentation. 
+Following the construction, each participant gave a three minute presentation of their instrument. Participants were encouraged to explain the links between the music on their index cards and the instruments, which helped to orient the presentations on the imagined outcomes rather than the technical details of the fabricated designs. A two minute group discussion followed each presentation. 
 
-While the participants described their instruments the facilitator noted key elements of their designs, such as essential features, attributes, characteristics that could help to define the instrument. These elements were written on sticky notes and posted to the whiteboard, clustered around the eight considerations that had been given in the previous activity. The presenter and other participants were encouraged to suggest elements to add the the board as well. 
-% This method of identifying design elements with sticky notes is common in design research \citep{Fischel2018}. The sticky notes were also color coded by participant to allow us to attribute key elements to individual designs \citep{Reichelt2014}, although ultimately a detailed comparative analysis was beyond the scope of this study.
+While the participants described their instruments the facilitator noted key elements of their designs, such as essential features, attributes, characteristics that could help to define the instrument. These elements were written on sticky notes and posted to the whiteboard, clustered around the eight considerations that had been given in the previous activity. The presenter and other participants were encouraged to suggest elements to add the the board as well.
 
 \subsubsection{Activity 4: Dot-voting}
 \label{sec:activity-4-dot-voting}
 
 The key element identification was intended to allow the group collectively to consider aspects of the designs that would be appealing to incorporate into a fully functional instrument. When the presentations were finished, participants were then asked to vote for the elements that they most strongly favored by placing colored stickers (dot votes) next to the items they wished to vote for (as shown in Figure \ref{fig:dot-voting}). Each participant was allotted 10 votes, based on the average number of participants per session and recommendations by \citet{Gray2010} and \citet{Gibbons2019}. 
-% This exercise was less oriented around ranking of essential design elements and more concerned with facilitating a discussion around individual and shared priorities for bringing a new instrument to life.
-% Dot voting is a common activity in design workshops and collaborative sessions to collaboratively prioritize items from a large set \citep{Gibbons2019} and focus attention for discussion and decision making \citep{Gray2010}. Each participant is given a number of stickers to place by the items of their choosing. When they are finished, the votes are calculated and presented to the group for further action. 
-
-% Drawing from varying recommendations about the appropriate number of votes per participant \citep{Gray2010, Gibbons2019} and considering the number of participants and elements from each session, each participant was allotted 10 votes. As we will discuss in next section, this exercise was less oriented around ranking of essential design elements and more concerned with facilitating a discussion around individual and shared priorities for bringing a new instrument to life. 
-% The voting activity was completed quickly and the workshop moved on to a final discussion.
 
 \begin{figure}[htbp]
     \begin{minipage}{0.49\textwidth}
@@ -589,33 +316,12 @@ Workshop results are reported in two parts. First we present the direct outcomes
 
 In addition to the basic background information collected in the prescreening questionnaire, the self introductions at the beginning of the workshop provided additional insights about the participants' own musical and DMI practices. Profiles of the ten participants are shown in Appendix 1.
 
-In their self-introductions, participants were also asked if they had previous experience with designing digital musical instruments. While this was not a criteria for participation, six of the participants reported at least some previous experience, including P04 and P05 who come from engineering backgrounds and have significant technical knowledge and experience in this area. This is consistent with DMI literature that highlights the overlap between DMI design and practice (see \citet{Magnusson2008, Morreale2017, Morreale2018} for example). While not a specific focus for this study, we can envision a future workshop variant that investigates the differences between designers and non-designers explicitly.
+During the self introductions, participants were also asked if they had previous experience with designing digital musical instruments. While this was not a criteria for participation, six of the participants reported at least some previous experience, including P04 and P05 who come from engineering backgrounds and have significant technical knowledge and experience in this area. This is consistent with DMI literature that highlights the overlap between DMI design and practice (see \citet{Magnusson2008, Morreale2017, Morreale2018} for example). While not a specific focus for this study, we can envision a future workshop variant that investigates the differences between designers and non-designers explicitly.
 
 \subsubsection{Design outputs}
 \label{sec:design-outputs}
 
-During the workshop each participant produced two physical design artefacts: their ``draw the music'' index card (as described in the presentations) and the instrument prototypes. The outputs are listed in Appendix 2, with instruments categorized according to \citeauthor{Miranda2006a}'s classification of gestural controllers (\citeyear{Miranda2006a}): \emph{augmented}, \emph{instrument-like}, \emph{instrument-inspired}, and \emph{alternate}. As the drawing of the cards was done as a prompt for the main activity, they are not examined here. 
-
-% Given the abstract nature of the ``draw the music'' task and its express purpose to provide an on-ramp and context for the creative activity to follow. they it is unnecessary to discuss the output of the cards themselves and instead focus on the instruments that the participants created. 
-
-% \begin{figure}[htbp]
-%     \centering
-%     \begin{subfigure}{1\textwidth}
-%         \centering
-%         \includegraphics[width=1\textwidth]{dfp_presentations_A.jpg}
-%         \caption{Session A: P01--P03 (left to right)}
-%         \label{fig:presentations_A}
-%     \end{subfigure}
-%     \par\bigskip
-%     \begin{subfigure}{1\textwidth}
-%         \centering
-%         \includegraphics[width=1\textwidth]{dfp_presentations_B.jpg}
-%         \caption{Session B: P04--P10 (clockwise from top left)}
-%         \label{fig:presentations_B}
-%     \end{subfigure}
-%     \caption[Design for Performance workshop: Activity 3 - Presentations]{Participants present their instrument prototypes in Activity 3.}
-%     \label{fig:presentations}
-% \end{figure}
+During the workshop each participant produced two physical design artifacts: their ``draw the music'' index card (as described in the presentations) and the instrument prototypes. The outputs are listed in Appendix 2, with instruments categorized according to \citeauthor{Miranda2006a}'s classification of gestural controllers (\citeyear{Miranda2006a}): \emph{augmented}, \emph{instrument-like}, \emph{instrument-inspired}, and \emph{alternate}. As the drawing of the cards was done as a prompt for the main activity, they are not examined here. 
 
 \begin{figure}[t]
     \centering
@@ -651,115 +357,40 @@ Half of the instruments can be classified as alternate instruments, and bear lit
 
 Four of the remaining five instruments can be identified as either instrument-like or instrument-inspired, taking various elements from existing instruments and repurposing them in different ways. A noticeable trend among this group was to combine the functionalities of several instruments into a single instrument, either to be able to play multiple parts simultaneously like P06's multifunction performance workstation (Figure \ref{fig:presentations_P06}) or to mix them together in creative ways like P02's instrument that would mix and cross-modulate vocals and guitar (Figure \ref{fig:presentations_P02}). 
 
-There was one augmented instrument designed by P09 (Figure \ref{fig:presentations_P09}). This participant is an expert instrumentalist with an advanced degree in performance on her instrument, the concert harp. She has been performing electroacoustic music using harp and various external controllers including custom interfaces designed by the first author \citep{Sullivan2018} and was clear in her needs and priorities as a performer, which was reflected in the pragmatic approach and practical utility of her design. 
-% (As previously mentioned, P09 and the first author are active collaborators whose work is the subject of the following chapter.)
-
-% ...at the time of the workshop P09 and the author the participant and first author had previously collaborated, and would collaborate again, focusing on designing novel technologies for professional performers. 
-
-% In Andersen's Magic Machine workshops, the physical objects may serve to evoke inspirations for discussion and conversation within the workshop group, or ``serve as simple vessels for notions and ideas, which are somewhat or completely beyond, what is represented in the model'' \citep[p. 63]{Andersen2017}. This holds true for the Design for Performance workshops as well, and therefore the physical prototypes themselves were not analyzed in further depth. 
-% Instead the key element identification and dot-voting activities, followed by the post-workshop thematic analysis of the presentations provided a rich understanding of the participants' designs. 
+There was one augmented instrument designed by P09 (Figure \ref{fig:presentations_P09}). This participant is an expert instrumentalist with an advanced degree in performance on her instrument, the concert harp. She has been performing electroacoustic music using harp and various external controllers including custom interfaces designed by the first author 
+(\emph{reference removed for anonymity} 2018)
+% \citep{Sullivan2018}
+and was clear in her needs and priorities as a performer, which was reflected in the pragmatic approach and practical utility of her design. 
 
 \subsection{Key elements, dot voting and discussion}
 
 As described previously, during presentations key elements of the participants' prototypes were identified and posted to the whiteboard. Afterwards the participants were asked to dot vote for the elements that they would most want to be incorporated into a new instrument design. In the planning of the workshop, we imagined these activities could serve two purposes. First, they could provide direct, quantifiable data that could be applied towards the eventual development of design specifications; second, they could also serve as a catalyst for exploring the designs in the final group discussions.
 
-
-Ultimately, we found that the data collected through these exercises contained limited insights and forego a detailed discussion of these results here. One reason for this was the rapid pace of the presentations, which made it difficult to thoroughly and consistently identify the most important aspects of each prototype. 
-% Furthermore, the different sizes of the two groups produced highly varied results. For the smaller A group, the presentations were conversational and highly interactive. There was more agreement on key elements between the participants, which tended to be more abstract and less feature-driven (highlighted in the discussion that followed). By contrast, Session B contributed a wide diversity 
-Furthermore, these activities marked a departure from Andersen's Magic Machine workshops, where the physical objects are intended to evoke inspirations for discussion and conversation within the workshop group and ``serve as simple vessels for notions and ideas, which are somewhat or completely beyond, what is represented in the model'' \citep[p. 63]{Andersen2017}. In contrast, thematic analysis of the video recorded presentations that was conducted afterwards provided a much richer account of the instrument prototypes and participants' priorities for design, and are presented in detail in the following section.
-
-% Furthermore, the different sizes of the groups led to significantly different dynamics between the two sessions, which was reflected in the elements that were identified and prioritized in the voting. The smaller session A group, was more conversational, with elements and voting focused more towards conceptual 
-
-% \subsection{Key elements, dot voting, and discussion}
-% \label{sec:key-element-identification-and-dot-voting}
-
-% As described previously, during the presentations key design elements were identified and posted to the whiteboard. 36 elements were recorded for the three instruments in Session A and 70 elements identified for the seven instruments in Session B, for a total of 106 (averaging 10.6 elements per instrument). As the elements were posted during the presentations, they were clustered around the eight considerations the participants had been given at the start of instrument prototyping exercise . These weren't intended to be strict categorizations and the classification of some elements was ambiguous, but this provided a basic structure that helped to reveal where the attention of the designs was focused. Figure \ref{fig:key-elements-by-category} shows the distribution of elements across the categories. 
-
-% \begin{figure}[htbp]
-%     \centering
-%     \includegraphics[width=0.75\textwidth]{key_element_categories}
-%     \caption[Design for Performance workshop: Key elements by category]{Distribution of key elements by category (design considerations), shown as percentages of total elements identified. For Session A, \emph{N}=36; for Session B, \emph{N}=70.}
-%     \label{fig:key-elements-by-category}
-% \end{figure}
-
-% The most common category was \emph{interaction methods}, with roughly one third of all elements related to how the performer would interact with the instrument, naming specific types of controls (like knobs or keys) or describing techniques for playing the instrument (touching, bowing, moving, etc.). While both controls and playing techniques were classified into one category here, it is worthwhile to note that they are not strictly orthogonal. A study by \citep{Marshall2009b} found that musicians tended to use the same control with different interaction techniques and playing strategies. Nonetheless, the frequent mention of both physical controls and instrumental technique highlights the embodied connection between a performer and their instrument that has been a strong theme in DMI research \citep{Emerson2018,Magnusson2008} and HCI \citep{Harrison2007}). On the other hand, the prevalence of this category may also be due in part to the structure and pace of the presentations, where describing these elements (along with physical form, which was the second most frequent category) gave the most succinct description of an instrument in a short time. 
-
-% Following the presentations, the participants dot voted for the elements that they would most want to be incorporated into a new instrument design. Table \ref{tab:dot-voting} shows the top dot voted elements from each session. While there were some elements common to both groups, the top voted elements were substantially different between the two. This seems to be somewhat related to the disparity in group size. The presentations for group A (with three participants) were more conversational and elements tended to focus on more high-level and conceptual elements, whereas group B (with seven participants)was more focused on tangible, physical elements.   
-
-% \begin{table}[htbp]
-%     \centering
-%     \caption{Top Dot-Voted Key Elements}
-%     \begin{tabular}{lc|lc}
-%         \hline
-%         \multicolumn{2}{c|}{\textbf{\emph{Session A}}} &
-%         \multicolumn{2}{c}{\textbf{\emph{Session B}}} \\
-%         % \hline % \toprule
-%         % \hline
-%         \textbf{Element} & \textbf{votes} &
-%         \textbf{Element} & \textbf{votes} \\
-%         % \hline % \midrule
-%         \hline
-%         playful unreliability & 3 & synthesis & 5 \\
-%         textures & 3 & audiovisual experience & 4 \\
-%         modular & 3 & pressure sensor & 4 \\
-%         organic & 2 & plucking & 4 \\
-%         move while you play & 2 & MIDI output & 3 \\
-%         blending & 2 & portability & 3 \\
-%         radio & 2 & strings & 3 \\
-%         touching & 2 & & \\
-%         % \hline % \bottomrule
-%         \hline
-%     \end{tabular}
-%     \label{tab:dot-voting}
-    
-% \end{table}
+Ultimately, we found that the data collected through these exercises contained limited insights, therefore we forego a detailed discussion of these results here. One reason for this was the rapid pace of the presentations, which made it difficult to thoroughly and consistently identify the most important aspects of each prototype. Furthermore, these activities marked a departure from Andersen's Magic Machine workshops, where the physical objects are intended to evoke inspirations for discussion and conversation within the workshop group and ``serve as simple vessels for notions and ideas, which are somewhat or completely beyond, what is represented in the model'' \citep[p. 63]{Andersen2017}. The attempt to quantify the designs during the workshop runs counter to this intention. In contrast to the in-workshop data collection, a thematic analysis of the video recorded presentations that was conducted afterwards provided a much richer understanding of the workshop activities, and is presented in the following section.
 
 \subsubsection{Closing Discussion}
 
-The group discussions that concluded the workshop varied between the two sessions. The smaller Session A group (with three participants) was highly conversational with all participants talking together between the presentations, dot voting exercise and into the discussion. There was a general consensus around desirable instrument features and qualities despite the individual instruments being very different. In particular, the participants valued modular instrument designs that could facilitate mixing and rerouting of signals, and allow the instruments to be flexible for use in a variety of ways. Additionally, the concept of \emph{playful unreliability} was popular, where an instrument might behave in non-deterministic or unexpected ways, leading to novel sounds and new ways of performing. This brings to mind Joel Chadabe's description of \emph{interactive composing}, in which the performer ``shares control of the music with the information that is automatically generated by the computer, and that information contains unpredictable elements to which the performer reacts while performing'' \citep[p. 23]{Chadabe1984}.
+The group discussions that concluded the workshop varied between the two sessions. The smaller Session A group (with three participants) was free flowing, and an ongoing conversation developed between the participants through the presentations, dot voting exercise and into the closing discussion. There was a general consensus around desirable instrument features and qualities despite the individual instruments being very different. In particular, the participants valued modular instrument designs that could facilitate mixing and rerouting of signals, and allow the instruments to be flexible for use in a variety of ways. Additionally, the concept of \emph{playful unreliability} was popular, where an instrument might behave in non-deterministic or unexpected ways, leading to novel sounds and new ways of performing. This brings to mind Joel Chadabe's description of \emph{interactive composing}, in which the performer ``shares control of the music with the information that is automatically generated by the computer, and that information contains unpredictable elements to which the performer reacts while performing'' \citep[p. 23]{Chadabe1984}.
 
-In contrast, discussion for the larger Session B (with seven participants) was relatively short as the session was nearing the two-hour mark and there was a sense that the participants were ready to leave. In addition, as so many disparate elements had been identified and voted on, it was difficult to facilitate a conversation around the distinct elements or collective design ideas. This was elucidated in a comment by P07:  
+In contrast, discussion for the larger Session B (with seven participants) was short. The session had approached the two-hour mark and there was a sense that the participants were ready to leave. In addition, as so many disparate elements had been identified and voted on, it was difficult to facilitate a conversation around the distinct elements or collective design ideas. This was elucidated in a comment by P07:
 
 \begin{quote}
    I'd say that you can sum [an instrument] up with keywords, but sometimes what makes it special or good are all the keywords together. If you take some of the words that were thought by different brains [and put them together in a single instrument], it can turn out like Frankenstein.
 \end{quote}
 
-% In Session A the closing discussion centered around the results of the dot voting. There was a high amount of agreement despite the individual instruments being very different. In particular, the participants valued modular instrument designs that could facilitate mixing and rerouting of signals, and allow the instruments to be flexible for use in a variety of ways. Additionally, the quality of \emph{playful unreliability} was popular, where an instrument might behave in non-deterministic or unexpected ways, leading to novel sounds and new ways of performing. This brings to mind Joel Chadabe's description of \emph{interactive composing}, in which the performer ``shares control of the music with the information that is automatically generated by the computer, and that information contains unpredictable elements to which the performer reacts while performing'' \citep[p. 23]{Chadabe1984}. 
-% Thus the difference lies in the performer's understanding and expectation of an instrument. If the unreliability is intentional, it can be coopted into their performance; if unintentional, it is more likely viewed as a flawed or malfunctioning instrument. 
-
-% In Session B, the discussion was relatively short as the session was nearing the two-hour mark and there was a sense that the participants were ready to leave. In addition, as there were so many elements on the board and a wide variety of elements receiving votes, it was difficult to facilitate a conversation around the distinct elements or specific design ideas. However, a comment by P07 provided a valuable observation:  
-
-% \begin{quote}
-%    \emph{ I'd say that you can sum [an instrument] up with keywords, but sometimes what makes it special or good are all the keywords together. If you take some of the words that were thought by different brains [and put them together in a single instrument], it can turn out like Frankenstein.}
-% \end{quote}
-
 \section{Thematic analysis}
 \label{sec:thematic-analysis}
 
-The preceding quote elucidates the challenge of moving from the individual and idiosyncratic ideas of the participants to tangible design specifications that can drive instrument designs. Our intent was for the sessions to serve as a space to freely generate ideas which, as seen in the creativity of the designs, was successful. However a systematic understanding of the participants' designs failed to materialize directly through the element identification and dot voting activities. 
-% We can suggest two reasons for this. First, the real time identification of key design elements during the fast-paced presentations may not have captured the full essence of the instruments, especially more nuanced or less pronounced elements, and (as reflected in P07's comment) the connections between them. Second, though not explicitly intended in the workshop design, the ensuing activities (key element identification, voting and discussions) were largely organized in a top down manner, structured around the the eight pre-defined considerations given during the workshop activity. 
-To better understand the workshop results, we conducted a thematic analysis of the participant presentations based on the methods presented by \citet{Braun2006}, using an inductive approach similar to grounded theory \citep{Strauss1994}. 
-% The goals of the thematic analysis are to organize and describe a data set in rich detail, and the methods are flexible to accommodate a variety of approaches. 
-% We used an inductive approach, similar to that found in grounded theory \citep{Strauss1994} in which the data set is coded from the bottom up.
-% and avoids fitting it to any preexisting framework.
+The preceding quote elucidates the challenge of moving from the individual and idiosyncratic ideas of the participants to tangible design specifications that can drive instrument designs. Our intent was for the sessions to serve as a space to freely generate ideas which, as seen in the creativity of the designs, was successful. However a systematic understanding of the participants' designs failed to materialize directly through the element identification and dot voting activities. To better understand the workshop results, we conducted a thematic analysis of the participant presentations based on the methods presented by \citet{Braun2006}, using an inductive approach similar to grounded theory \citep{Strauss1994}. 
 
-The analysis was conducted using the qualitative data analysis software Nvivo by QSR International and entailed the following steps: 1) presentations of the ten participants were transcribed from the video recordings; 2) a round of open coding was performed and a list of preliminary codes was developed; 3) a second round of coding was performed where incidents were compared to one another to identify similarities and relationships between them, yielding the final set of codes; 4) the codes were then sorted into themes, which were in turn reviewed and refined, then defined and named.
+The analysis was conducted using the qualitative data analysis software Nvivo by QSR International and entailed the following steps: (1) presentations of the ten participants were transcribed from the video recordings; (2) a round of open coding was performed and a list of preliminary codes was developed; (3) a second round of coding was performed where incidents were compared to one another to identify similarities and relationships between them, yielding the final set of codes; (4) the codes were then sorted into themes, which were in turn reviewed and refined, then defined and named.
 
-% \begin{enumerate}[noitemsep]
-%     \item Presentations of the ten participants were transcribed from the video recordings. 
-%     \item A round of open coding was performed on the transcribed presentations, where all codeable incidents were identified and assigned preliminary codes. 
-%     \item In a second round of coding the incidents were compared to one another to identify similarities and relationships between them, yielding the final set of codes. 
-%     \item The codes were then sorted into themes, which were in turn reviewed and refined, then defined and named. 
-% \end{enumerate}
-
-% The initial round of open coding was performed using Microsoft Excel, while the rest of the analysis was completed with NVivo\footnote{\url{https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/}}, qualitative data analysis software. NVivo contains a powerful set of features that are particularly useful to develop a rich understanding and and deep insights out of qualitative data, such as the ability to synchronize video and audio files to text transcripts, and to link the data set to different \emph{nodes} (emerging codes and themes) in a searchable database. This underlying structure made it possible to explore the data from different perspectives throughout the process, which helped us determine our complete list of codes and themes. 
-
-In all, 152 incidents were coded across the ten presentations, yielding 56 individual codes categorized across 11 themes. The analysis codebook containing the full list of codes and themes, along with their mentions by participant, is included in Appendix 3. In comparison to the in-workshop element identification and voting activities, the bottom-up approach of the analysis captured more detail and nuance in the presentations, instead of strictly listening for perceived ``key'' elements, and yielded more clear areas of consensus that were not apparent during the workshop, especially with the larger Session B.
+In all, 152 incidents were coded across the 10 presentations, yielding 56 individual codes categorized across 11 themes. The analysis codebook containing the full list of codes and themes, along with their mentions by participant, is included in Appendix 3. In comparison to the in-workshop element identification and voting activities, the bottom-up analysis captured more detail and nuance in the presentations and yielded more clear areas of consensus that were not apparent during the workshop, especially with the larger Session B.
 
 \section{Design specifications}
 \label{sec:design-specifications}
 
-To move from open exploration in the workshops to tangible design implementations, we examined the five most common themes (which were mentioned by at least half of the participants) and formulated them into a set of design specifications. In Table~\ref{tab:themes-and-specs}, we list each theme with a description, exemplar quote, and resulting design specification. 
+To move from open exploration in the workshops to tangible design implementations, we examined the five most common themes (that were mentioned by at least half of the participants) and formulated them into a set of design specifications. In Table~\ref{tab:themes-and-specs}, we list each theme with a description, exemplar quote, and resulting design specification. 
 
 \begin{table}[htbp]
     \footnotesize
@@ -801,78 +432,54 @@ To move from open exploration in the workshops to tangible design implementation
         "I wanted something that makes singing, while playing guitar, while doing lots of stuff to your voice, plus your guitar, easier." (P02) &
         The instrument should feature multiple modes or modules of operation that allow for a variety of playing styles. \\
         \hline
-        
-        % \multicolumn{3}{l}{\textbf{\emph{Performance environment}}} \\
-        % Large-scale performance environments, audiovisual elements, video projections, immersive spaces and audience interaction. &
-        % ``So I am imagining I'm playing in a dome-like structure, with the world map projected on to it.'' (P04) &
-        % \emph{none} \\
-        % \hline
     \end{tabular}
     \label{tab:themes-and-specs}
 \end{table}
 
-Across the five themes, two general observations can be made. Themes 1 and 4 offer a middle ground between novel and conventional design elements. In DMI research, both ends of the spectrum are well-supported. The desire for novelty is a continuous driving force, illustrated, for example, by the ``New Interfaces'' in the title of NIME. On the other hand, leveraging existing instrument elements in new designs is also highly valued for many reasons such as the transferral of learned technique to a new instrument. The workshop results suggest preference for a balance between the two. 
+Considering the five themes, we make two general observations. First, themes 1 and 4 offer a middle ground between novel and conventional design elements. In DMI research, both ends of the spectrum are well-supported. The desire for novelty is a continuous driving force, illustrated, for example, by the ``New Interfaces'' in the title of NIME. On the other hand, leveraging existing instrument elements in new designs is also highly valued for many reasons such as the transferral of learned technique to a new instrument. The workshop results suggest preference for a balance between the two. 
 
-Themes 2, 3, and 5 all reflect a desire for flexibility and versatility across a variety of different aspects: control mapping, signal mixing and routing, and modular designs that can be easily configured and changed by the performer. This trend is recognizable in computer and electronic music performance and a strength of digital instruments that have the capacity to change behaviour (e.g., mappings, synthesis algorithms) dynamically through code. 
+Second, themes 2, 3, and 5 all reflect a desire for flexibility and versatility across a variety of different aspects: control mapping, signal mixing and routing, and modular designs that can be easily configured and changed by the performer. This trend is recognizable in computer and electronic music performance and highlights a strength of digital instruments that have the capacity to change behaviour (e.g., mappings, synthesis algorithms) dynamically through code. 
 
-The balance between novel and conventional design elements and the desire for flexible and versatile instruments support some of the findings from our previous survey on DMI use in performance \citep{Sullivan2021jnmr}. To the first point, survey respondents showed expressed motivation to experiment with new instruments, sounds, and performance techniques, but were also highly committed to familiar instruments and interactions that are characterized by ownership, embodied performer-instrument connections and intimate ``muscle memory''. Qualities of flexibility and versatility were highly regarded among respondents as well, and allow for instruments to be customized and combined into elaborate and specific assemblages for a wide range of performance and musical contexts. 
-
-% The most common theme across both groups was the importance of physical and material properties of instruments (Theme 1). These aspects highlight the essential embodied connection between performer and instrument (\citet{Leman2008}, for example) as well as material-oriented interactions as discussed by \citet{Mudd2019}. In both sessions, participants highlighted the unique performance possibilities that could come through the use of different textures, shapes, materials and movements. Novel interface elements were often mixed with conventional input controls found on existing instruments (Theme 4) to form new hybrid instrument designs. 
-
-% Flexibility and versatility are prioritized in different ways. Theme 2 emphasizes the ability for the performer to easily route audio and control signals in various complex ways, while Theme 5 highlights instruments that can be used in different ways and contexts, and accommodate a variety of different playing techniques and styles. 
-
-% Theme 3 focuses on sound production and processing and overlaps with flexible signal routing (Theme 2) and versatility (Theme 5). Participants value powerful and dynamic instruments that provide a wide range of audio synthesis and modulation possibilities. Theme 1 is echoed here as well, as novel interactions are used as creative input controls. 
+The balance between novel and conventional design elements and the desire for flexible and versatile instruments support some of the findings from our previous survey on DMI use in performance
+(\emph{reference removed for anonymity} forthcoming).
+% \citep{Sullivan2021jnmr}. 
+To the first point, survey respondents showed expressed motivation to experiment with new instruments, sounds, and performance techniques, but were also highly committed to familiar instruments and interactions that are characterized by ownership, embodied performer-instrument connections, and ``muscle memory''. Qualities of flexibility and versatility were highly regarded among respondents as well, and allow for instruments to be customized and combined into elaborate and specific assemblages for a wide range of performance and musical contexts. 
 
 \section{Discussion}
 \label{sec:discussion}
 
-From a methodological perspective, the Design for Performance workshops were developed as a strategy to generate novel ideas for new DMIs using strategies drawn from HCI and HCD that prioritize qualitative and situated approaches to design and evaluation. 
-% By bringing in expert musicians, we aimed to leverage their tacit knowledge and experience of real-world performance practice in hopes that their input could direct the design of instruments that would be appealing and viable to be taken up into musical practice. 
-The choice to use of design fiction was made for two reasons. First, by removing technological constraints and considerations, the participants were allowed to freely build non-functional prototypes with a focus on their musical practice without worrying about the technical feasibility.
-% of implementing their designs into functional instruments. 
-Second, the design activities situated the participants fictional narrative of their own imagining and the playful aspect urged the participants to be creative and unconventional in their endeavors. For designers, this approach to capturing ideas generated by musicians, especially those that are highly creative and not bounded by the technical limitations, can help to stave off potential creative paralysis, bringing in fresh ideas and a better understanding of priorities for performance.
+From a methodological perspective, the Design for Performance workshops were developed as a strategy to generate novel ideas for new DMIs using strategies drawn from HCI and HCD that prioritize qualitative and situated approaches to design and evaluation. The choice to use of design fiction was made for two reasons. First, by removing technological constraints and considerations, the participants were allowed to freely build non-functional prototypes with a focus on their musical practice without worrying about the technical feasibility. Second, the design activities situated the participants fictional narrative of their own imagining and the playful aspect urged the participants to be creative and unconventional in their endeavors. For designers, this approach to capturing ideas generated by musicians, especially those that are highly creative and not bounded by the technical limitations, can help to stave off potential creative paralysis, bringing in fresh ideas and a better understanding of priorities for performance.
 
-% A large part of the methodology designed for this project was adopted from Andersen's Magic Machine workshop playbook. 
 Regarding the prospect of Magic Machine workshops to be employed by other researchers, \citeauthor{Andersen2019} propose that ``the multiplicity of highly personal and interpretive content might serve as an additional and complementary resource to design and HCI workshops, which can then in turn be analyzed, annotated or simply challenge designers'' \citeyearpar[p. 12]{Andersen2019}. Our work here aims to apply the unique and imaginative approach of of design fiction to collaborate with expert musicians to generate creative new ideas and elements for the design of new instruments. 
 
-% HCI has informed several well-structured approaches to DMI design, which were reviewed in teh Background section. With the Design for Performance workshops we aim to align our methods with current and emerging HCI concerns, especially focusing on embodied interaction, phenomenology and qualitative methods of analysis. We find this approach to be complementary to trends in musical interface design which may combine formal engineering and technical know-how with creative practice, and where the lines between functional design and musical composition may become blurred. 
-
-The path we envision from idea generation to the creation of functional instruments is similar to \citeauthor{Calegario2017}'s Probatio \citeyearpar{Calegario2017}, in which an entire design cycle is formed. With Probatio this is achieved in a rapid succession where ideas are generated and directly explored in hardware, which allows for instant testing and evaluation, and rapid iteration. 
-% Our approach follows the same progression but over a longer time frame (including the Design for Performance workshop and subsequent instrument designs), with an interest in producing high fidelity prototypes suitable for use in artistic practice.
-With our approach, the Design for Performance workshop is intended to be one element of a larger design ecosystem. We envision an iterative design sequence in which multiple workshops can be held to evaluate and refine the resulting instrument designs, similar to the method employed by \citet{Absar2015}, where a sequence of three workshops iterated on the development of auditory feedback to assist navigation of a visual information system. An iterative process like this could also employ the Probatio toolkit as a step in the design cycle: Ideas generated from the non-functional prototype designs could be explored in low-fidelity functional models with the Probatio hardware before moving towards the design of high-fidelity prototypes that would be viable for real world use.
+The path we envision from idea generation to the creation of functional instruments is similar to \citeauthor{Calegario2017}'s Probatio \citeyearpar{Calegario2017}, in which an entire design cycle is formed. With Probatio this is achieved in a rapid succession where ideas are    generated and directly explored in hardware, which allows for instant testing and evaluation, and rapid iteration. With our approach, the Design for Performance workshop is intended to be one element of a larger design ecosystem. We envision an iterative design sequence in which multiple workshops can be held to evaluate and refine the resulting instrument designs, similar to the method employed by \citet{Absar2015}, where a sequence of three workshops iterated on the development of auditory feedback to assist navigation of a visual information system. An iterative process like this could also employ the Probatio toolkit as a step in the design cycle: Ideas generated from non-functional prototyping can be explored in low-fidelity functional models with the Probatio hardware before moving towards the design of high-fidelity prototypes that would be viable for real world use.
 
 \subsection{Limitations and future work}
 \label{sec:limitations-and-future-work}
 
-% \subsubsection{COVID-19 and the ongoing suspension of in-person research }
-In a concurrent project, we have already applied the design specifications from the workshop to the development of three new DMIs, which are intended to embody several of the aspects that emerged from the participants' designs \citep{Sullivan2020nime}. Additional workshops had been planned to present the prototypes back to the participants for evaluation and feedback, however due to disruptions caused by COVID-19 they were postponed indefinitely. We look forward to continuing our design research in-person with participants when it is safe to do so.
+In a concurrent project, we have already applied the design specifications from the workshop to the development of three new DMIs, which are intended to embody several of the aspects that emerged from the participants' designs
+(\emph{reference removed for anonymity} 2020).
+% \citep{Sullivan2020nime}. 
+Additional workshops had been planned to present the prototypes back to the participants for evaluation and feedback, however due to disruptions caused by COVID-19 they were postponed indefinitely. We look forward to continuing our design research in-person with participants when it is safe to do so.
 
-To improve upon the workshop design for the future, two adjustments could be made. First, we found that the key element identification and dot voting activities did not contribute significantly to our understanding of the instrument prototypes or participants' priorities. These could be rethought, if not eliminated altogether. Second, Session B (with seven participants) ran nearly 1/2 hour longer than the smaller Session A and the closing discussion was brief as the participants were ready to leave. Thus if the workshop is run again, it will be ideal to limit the size to five participants or arrange the sessions so there is ample time for a more robust final discussion. 
+To improve upon the workshop design for the future, two adjustments could be made. First, we found that the key element identification and dot voting activities did not contribute significantly to our understanding of the instrument prototypes or participants' priorities. These could be rethought, if not eliminated altogether. Second, Session B (with seven participants) ran nearly 1/2 hour longer than the smaller Session A and the closing discussion was very short as the participants were ready to leave. If the workshop is run again, it will be ideal to limit the size to five participants or arrange the sessions so there is ample time for a more robust final discussion. 
 
-% Additionally, there are a variety of tools and methods available to conduct DMI workshops and evaluations remotely through videoconferencing and asynchronous activities (such as recording and uploading practice sessions). However, this requires a thorough evaluation of potential methods and ramifications of this approach, and is not planned for this particular project. 
-
-% \subsubsection{General vs. individual users}
 \subsubsection{Generic vs. idiosyncratic design}
 \label{sec:generic-vs-idiosyncratic-design}
 
-The comment made by P07 brings to mind the idea of specificity in design. Each participant created an instrument that was personalized for their own needs and practice, and by combining elements of several different instruments into a single design (the Frankenstein instrument) the essence of any single one may be lost. On one hand, we are motivated to identify common areas of agreement among DMI performers. Our results revealed many design elements that were valued by several of the participants. This suggests the possibility of designing instruments that could be used by different performers across different contexts, possibly improving an instrument's chance for long-term and widespread adoption. On the other hand, P07's comment speaks to the idiosyncrasy that characterizes field of DMI design, especially where design and performance roles commonly overlap. While this issue is not covered in depth here, our continued work explores both sides, first through the instruments developed from the workshop design specifications and intended for nonspecific DMI performers, and second through focused collaborations with individual artists and groups, such as our work with P09 \citep{Sullivan2018}.
+Finally, the comment made by P07 brings to mind the idea of specificity in design. Each participant created an instrument that was personalized for their own needs and practice, and by combining elements of several different instruments into a single design (the Frankenstein instrument) the essence of any single one may be lost. On one hand, we are motivated to identify common areas of agreement among DMI performers. Our results revealed many design elements that were valued by several of the participants. This suggests the possibility of designing instruments that could be used by different performers across different contexts, possibly improving an instrument's chance for long-term and widespread adoption. On the other hand, P07's comment speaks to the idiosyncrasy that characterizes field of DMI design, especially where design and performance roles commonly overlap. While this issue is not covered in depth here, our continued work explores both sides, first through the instruments developed from the workshop design specifications and intended for nonspecific DMI performers, and second through focused collaborations with individual artists and groups, such as our work with P09.
 
 \subsection{Conclusion}
 \label{sec:conclusion}
 
-Here we have reported on a novel approach to generate ideas for the design of new DMIs based on design workshops that employ design fiction, allowing workshop participants to freely imagine and craft non-functional instrument prototypes.
-% The workshop design has adapted from Andersen's Magic Machine Workshops ~\citep{Andersen2017} and is informed by theories for DMI development based on previous design frameworks and HCI literature. 
-% In particular the approach emphasizes the tacit knowledge of the participants, in our case, expert musicians, towards the development of new instruments that would be appealing for performers to take up into real-world use. 
-% We began by reviewing previous research around DMI design, including motivations for the design and use of new instruments, and various design frameworks that have been proposed. Then we introduced the Design for Performance workshop, which we ran with 10 participants divided into two sessions. 
-Analysis of the workshop sessions showed several areas of agreement and preference among the participants, which served as the foundations for a list of design specifications for instruments that performers would be likely to use in their practice. Overall we found that participants appreciate a balance between novel and conventional design elements, and prioritize instruments that are flexible and versatile in their capabilities. In addition to informing our own new designs, the specifications may be useful to other DMI designers as well. 
-
-% As a continuation to this project (which is presented in Chapter \ref{ch4-cha}), we have applied these specifications to the design of three new instruments that are intended to embody many of the desirable aspects presented by the workshop participants. We also envision future workshops, not only to design new instruments, but also to present our current and ongoing designs for feedback and continued iteration. 
+Here we have reported on a novel approach to generate ideas for the design of new DMIs based on design workshops that employ design fiction, allowing workshop participants to freely imagine and craft non-functional instrument prototypes. Analysis of the workshop sessions showed several areas of agreement and preference among the participants, which served as the foundations for a list of design specifications for instruments that performers would be likely to use in their practice. Overall we found that participants appreciate a balance between novel and conventional design elements, and prioritize instruments that are flexible and versatile in their capabilities. In addition to informing our own new designs, the specifications may be useful to other DMI designers as well. 
 
 We also hope that these workshops offer a unique and creative methodology for early stage design of high quality, functional and finished DMIs that can be taken up into real-world use in performance. The workshops, while developed for DMI design, are appropriate for a wide range of applications with within and beyond the creative arts. 
 
 \section{Acknowledgments}
 
-\anonymize{We would like to extend our thanks to Collin Wang, who served as the assistant for the workshops. Thanks also to the Centre for Interdisciplinary Research in Music Media and Technology for the generous funding and facilities to carry out this research.}
+\noindent \emph{section removed for anonymity}
+% We would like to extend our thanks to Collin Wang, who served as the assistant for the workshops. Thanks also to the Centre for Interdisciplinary Research in Music Media and Technology for the generous funding and facilities to carry out this research.
 
 
 %%%%%%%%%% END OF MAIN TEXT %%%%%%%%%%%%%%%%%
@@ -882,11 +489,9 @@ We also hope that these workshops offer a unique and creative methodology for ea
 \bibliographystyle{cmj}
 \bibliography{diss_bib}
 
-\pagebreak
+% \pagebreak
 
 \section*{Appendix 1: Workshop Participant Profiles}
-
-% \noindent The following tables present the profiles and design outputs of the workshop participants. Workshop Participant Profiles are compiled from responses to the prescreening questionnaire as well as the self introductions at the beginning of each session. The Workshop Design Outputs are taken from the participants' presentations.
 
 \begin{spacing}{1.1}
     \footnotesize
@@ -995,7 +600,7 @@ We also hope that these workshops offer a unique and creative methodology for ea
     \end{longtable}
 \end{spacing}
 
-\pagebreak
+% \pagebreak
 
 \section*{Appendix 2: Workshop Design Outputs}
 
@@ -1070,14 +675,10 @@ We also hope that these workshops offer a unique and creative methodology for ea
         vertical layers: low basses, middle light and fast, high clear like clouds &
         hyperactive, need to move, two objects tethered to swing around like nunchucks. &
         alternate instrument \\ 
-        % \hline % \bottomrule
         \hline
     \end{longtable}
 \end{spacing}
 
-\pagebreak
-
-% \section*{Appendix 1: Participant profiles and design outputs}
 \section{Appendix 3: Thematic Analysis Codebook}
 
 \begin{spacing}{1.1}
@@ -1148,9 +749,6 @@ We also hope that these workshops offer a unique and creative methodology for ea
         fungibility                      & 3  & X &   &   &   & X &   &   &   &   & X & 3  \\
         modularity                       & 2  & X &   &   &   & X &   &   &   &   &   & 5  \\
         independent elements             & 1  &   & X &   &   &   &   &   &   &   &   & 2  \\
-        \hline
-        
-        \textbf{Themes and Codes} & \textbf{Cases} & \textbf{P1} & \textbf{P2} & \textbf{P3} & \textbf{P4} & \textbf{P5} & \textbf{P6} & \textbf{P7} & \textbf{P8} & \textbf{P9} & \textbf{P10} & \textbf{Refs} \\ 
         \hline
 
         \emph{\textbf{performance environment}} & \emph{\textbf{5}} & & \emph{\textbf{X}} & & \emph{\textbf{X}} & & \emph{\textbf{X}} & & & \emph{\textbf{X}} & \emph{\textbf{X}} & \emph{\textbf{12}} \\

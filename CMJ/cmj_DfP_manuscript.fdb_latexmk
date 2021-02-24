@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex cmj_DfP_manuscript"] 1614129993 "cmj_DfP_manuscript.aux" "cmj_DfP_manuscript.bbl" "cmj_DfP_manuscript" 1614129995
+["bibtex cmj_DfP_manuscript"] 1614137374 "cmj_DfP_manuscript.aux" "cmj_DfP_manuscript.bbl" "cmj_DfP_manuscript" 1614137408
   "./cmj.bst" 1519312851 32441 d3fc67fd6e3a53dfd7ea31b28c381051 ""
-  "cmj_DfP_manuscript.aux" 1614129995 16773 a354cc578982abc00e0f56d84adccca4 "pdflatex"
+  "cmj_DfP_manuscript.aux" 1614137408 16715 fd4a7ec217543c073767dd6f723944ae "pdflatex"
   "diss_bib.bib" 1614124157 167133 42770766b87c1bd2102626ef2c640ff6 ""
   (generated)
   "cmj_DfP_manuscript.bbl"
   "cmj_DfP_manuscript.blg"
-["pdflatex"] 1614129993 "/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.tex" "/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.pdf" "cmj_DfP_manuscript" 1614129995
+["pdflatex"] 1614137405 "/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.tex" "/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.pdf" "cmj_DfP_manuscript" 1614137408
   "./Figures//P02.jpg" 1614128733 324084 343a7f8c0acc4cca945105b6a5f174e6 ""
   "./Figures//P05.jpg" 1614128715 410680 e17aaf05598706e9cd112d942a0299fd ""
   "./Figures//P06.jpg" 1614128722 408458 a30a5900290e2c16644e1bbd8c2ddda2 ""
@@ -18,8 +18,8 @@
   "./Figures//dfp_nfp_B_P4.jpg" 1614128912 272573 3a561821e1e82a5ee1b653cf6751431c ""
   "./Figures//probatio_assembly.jpg" 1614128922 502876 06bbc5d5b9722287aa718b98d28400df ""
   "./Figures//probatio_chart.jpg" 1614128926 74040 2933d9a233a0d18940561ff7b1f28267 ""
-  "/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.aux" 1614129995 16773 a354cc578982abc00e0f56d84adccca4 ""
-  "/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.tex" 1614129984 115538 d04646a04760aed9d2579ad06c7fd076 ""
+  "/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.aux" 1614137408 16715 fd4a7ec217543c073767dd6f723944ae ""
+  "/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.tex" 1614137405 72130 740224224baeda637ae1fb7b640c6986 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -264,14 +264,14 @@
   "Figures//probatio_chart.jpg" 1614128926 74040 2933d9a233a0d18940561ff7b1f28267 ""
   "anonymize.sty" 1611766435 2486 82101697c9833207494ff0dd50474714 ""
   "cmjStyle.sty" 1544024548 4373 5cb9ff978a8a8d0808f85367f79f46f9 ""
-  "cmj_DfP_manuscript.aux" 1614129995 16773 a354cc578982abc00e0f56d84adccca4 "pdflatex"
-  "cmj_DfP_manuscript.bbl" 1614129993 17245 f51ea396e01479b6f65c259a48e294d8 "bibtex cmj_DfP_manuscript"
-  "cmj_DfP_manuscript.out" 1614129995 2148 9993929aec4d3f179bbca95d3f864fb4 "pdflatex"
-  "cmj_DfP_manuscript.tex" 1614129984 115538 d04646a04760aed9d2579ad06c7fd076 ""
+  "cmj_DfP_manuscript.aux" 1614137408 16715 fd4a7ec217543c073767dd6f723944ae "pdflatex"
+  "cmj_DfP_manuscript.bbl" 1614137375 16165 4f8bc56a4842631a81e8e16d2ebf2249 "bibtex cmj_DfP_manuscript"
+  "cmj_DfP_manuscript.out" 1614137408 2148 9993929aec4d3f179bbca95d3f864fb4 "pdflatex"
+  "cmj_DfP_manuscript.tex" 1614137405 72130 740224224baeda637ae1fb7b640c6986 ""
   (generated)
-  "cmj_DfP_manuscript.aux"
-  "/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.log"
   "cmj_DfP_manuscript.out"
+  "/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.log"
+  "cmj_DfP_manuscript.aux"
+  "/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.pdf"
   "cmj_DfP_manuscript.pdf"
   "cmj_DfP_manuscript.log"
-  "/Users/johnnyvenom/Documents/Publications/CMJ_workshop_2021/CMJ/cmj_DfP_manuscript.pdf"

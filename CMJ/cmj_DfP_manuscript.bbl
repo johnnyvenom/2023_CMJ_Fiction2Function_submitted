@@ -1,4 +1,4 @@
-\begin{thebibliography}{63}
+\begin{thebibliography}{60}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -329,29 +329,6 @@ Strauss, A., and J.~Corbin. 1994.
 \newblock \enquote{{Grounded theory methodology}.}
 \newblock \emph{Handbook of qualitative research} 17(1):273--285.
 
-\bibitem[{Sullivan et~al.(forthcoming)Sullivan, Guastavino, and
-  Wanderley}]{Sullivan2021jnmr}
-Sullivan, J., C.~Guastavino, and M.~M. Wanderley. forthcoming.
-\newblock \enquote{{Surveying Digital Musical Instrument Use in Diverse
-  Performance Communities}.}
-\newblock In \emph{{Journal for New Music Research}}.
-
-\bibitem[{Sullivan et~al.(2018)Sullivan, Tibbitts, Gatinet, and
-  Wanderley}]{Sullivan2018}
-Sullivan, J., A.~Tibbitts, B.~Gatinet, and M.~M. Wanderley. 2018.
-\newblock \enquote{{Gestural Control of Augmented Instrumental Performance: A
-  Case Study of the Concert Harp}.}
-\newblock In \emph{Proceedings of the International Conference on Movement and
-  Computing}, pp. 1--8.
-
-\bibitem[{Sullivan et~al.(2020)Sullivan, Vanasse, Guastavino, and
-  Wanderley}]{Sullivan2020nime}
-Sullivan, J., J.~Vanasse, C.~Guastavino, and M.~M. Wanderley. 2020.
-\newblock \enquote{{Reinventing the Noisebox: Designing Embedded Instruments
-  for Active Musicians}.}
-\newblock In \emph{Proceedings of the International Conference on New
-  Interfaces for Musical Expression}, pp. 5--10.
-
 \bibitem[{Tahlro\v{g}lu et~al.(2020)Tahlro\v{g}lu, Magnusson, Parkinson,
   Garrelfs, and Tanaka}]{Tahlroglu2020}
 Tahlro\v{g}lu, K., T.~Magnusson, A.~Parkinson, I.~Garrelfs, and A.~Tanaka.
@@ -388,7 +365,32 @@ Wanderley, M.~M., and J.~Malloch, (eds.) . 2014.
 \newblock 38(3).
 
 \bibitem[{Wanderley and Orio(2002)}]{Wanderley2002}
-Wanderley, M.~M., and N.~Orio. 2002.
+Wanderley, M.~M., and N.~Or\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+%SetFonts
+
+%SetFonts
+
+
+\title{Brief Article}
+\author{The Author}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{}
+%\subsection{}
+
+
+
+\end{document}  io. 2002.
 \newblock \enquote{{Evaluation of Input Devices for Musical Expression:
   Borrowing Tools from HCI}.}
 \newblock \emph{Computer Music Journal} 26(3):62--76.

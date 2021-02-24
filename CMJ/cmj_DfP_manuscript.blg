@@ -8,49 +8,48 @@ Warning--entry type for "Gibbons2019" isn't style-file defined
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty pages in Fyans:2012
 Warning--empty pages in Harrison2007
-Warning--empty pages in Sullivan2021jnmr
 Warning--missing publisher in os-mapping-2002
 Warning--missing publisher in cmj-mapping-2014
 Warning--empty pages in Young2015a
-You've used 63 entries,
+You've used 60 entries,
             3211 wiz_defined-function locations,
-            1051 strings with 15853 characters,
-and the built_in function-call counts, 40272 in all, are:
-= -- 3459
-> -- 1785
-< -- 69
-+ -- 766
-- -- 453
-* -- 2732
-:= -- 5982
-add.period$ -- 311
-call.type$ -- 63
-change.case$ -- 460
-chr.to.int$ -- 74
-cite$ -- 69
-duplicate$ -- 2950
-empty$ -- 2928
-format.name$ -- 628
-if$ -- 8291
+            1035 strings with 15167 characters,
+and the built_in function-call counts, 38123 in all, are:
+= -- 3282
+> -- 1653
+< -- 67
++ -- 706
+- -- 420
+* -- 2576
+:= -- 5670
+add.period$ -- 296
+call.type$ -- 60
+change.case$ -- 431
+chr.to.int$ -- 71
+cite$ -- 65
+duplicate$ -- 2799
+empty$ -- 2792
+format.name$ -- 586
+if$ -- 7851
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 536
-newline$ -- 322
-num.names$ -- 262
-pop$ -- 1310
+missing$ -- 511
+newline$ -- 307
+num.names$ -- 250
+pop$ -- 1225
 preamble$ -- 1
-purify$ -- 397
+purify$ -- 374
 quote$ -- 0
-skip$ -- 1334
+skip$ -- 1262
 stack$ -- 0
-substring$ -- 1875
-swap$ -- 1511
-text.length$ -- 24
+substring$ -- 1807
+swap$ -- 1440
+text.length$ -- 22
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 540
-warning$ -- 6
-while$ -- 312
+type$ -- 513
+warning$ -- 5
+while$ -- 297
 width$ -- 0
-write$ -- 819
-(There were 7 warnings)
+write$ -- 781
+(There were 6 warnings)
