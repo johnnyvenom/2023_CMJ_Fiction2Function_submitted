@@ -31,10 +31,11 @@
 
 %%%%%%%%%%%%%%%%%%% Begin MY PACKAGES %%%%%%%%%%%%%%%%%%%%%
 % Uncomment only one of the ones below
-\usepackage{anonymize} 		% Uncomment this line to publish
+% \usepackage{anonymize} 		% Uncomment this line to publish
 % \usepackage[blind]{anonymize}   %Uncomment this line for blind review
 
 % \usepackage[firstpageonly=true, scale=1, colorspec=0.85]{draftwatermark} % draft watermark
+\lfoot{\small \emph{manuscript under review}} % remove and will revert to CMJ footer.
 
 \usepackage{enumitem}           % controls list spacing
 \usepackage{longtable}
@@ -67,9 +68,9 @@
 %%		Three authors:	\lhead{\small Keislar, Castine, and Rundall}
 %%		Four or more:	\lhead{\small Keislar et al.}
 %%
-% \lhead{\small \anonymize{Sullivan, Wanderley and Guastavino}}
-% \lhead{\small Sullivan, Wanderley and Guastavino}
-\lhead{\small anonymous}
+
+\lhead{\small Sullivan, Wanderley and Guastavino}
+% \lhead{\small anonymous}
 
 
 %% The package endfloat moves all floats (figures, tables...) to the end of the article, as required for the final version of a CMJ article.
@@ -96,20 +97,20 @@
 % Post will be sent to that address.)
 
 % Author: name
-% {\cmjAuthor John Sullivan,\textsuperscript{*\dag} Marcelo M. Wanderley,\textsuperscript{*\dag} and Catherine Guastavino\textsuperscript{*\S}}	% List all authors here
-{\cmjAuthor author names witheld for anonymity}	% List all authors here
+{\cmjAuthor John Sullivan,\textsuperscript{*\dag} Marcelo M. Wanderley,\textsuperscript{*\dag} and Catherine Guastavino\textsuperscript{*\S}}	% List all authors here
+% {\cmjAuthor author names witheld for anonymity}	% List all authors here
 							% e.g.:
 							% {\cmjAuthor Doug Keislar, Peter Castine, and Jake Rundall}
  
 % Author: address
 \begin{cmjAuthorAddress}
-    % \textsuperscript{*}Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT) \\
-    % \textsuperscript{\dag}Input Devices and Music Interaction Laboratory (IDMIL) \\
-    % \textsuperscript{\S}Multimodal Interaction Laboratory (MIL) \\
-	% McGill University\\
-	% 527 Sherbrooke St. W. Suite A715 \\
-    % Montreal, QC H3A1E3 Canada \\
-	% \{john.sullivan2, marcelo.wanderley, catherine.guastavino\}@mcgill.ca
+    \textsuperscript{*}Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT) \\
+    \textsuperscript{\dag}Input Devices and Music Interaction Laboratory (IDMIL) \\
+    \textsuperscript{\S}Multimodal Interaction Laboratory (MIL) \\
+	McGill University\\
+	527 Sherbrooke St. W. Suite A715 \\
+    Montreal, QC H3A1E3 Canada \\
+	\{john.sullivan2, marcelo.wanderley, catherine.guastavino\}@mcgill.ca
 \end{cmjAuthorAddress}
 
 
@@ -124,7 +125,10 @@ This paper introduces a set of workshops held with expert musicians to imagine n
 
 Digital musical instrument (DMI) design is a broad and interdisciplinary field \citep{Miranda2006a}. Designers engage in the development of new instruments and novel approaches to musical performance (as well as composition and production) for a wide variety of reasons. Even where DMI design is fundamentally research-based, the means and the ends take a variety of forms, ranging from rigorous scientific experimentation to artistically motivated creative practice \citep{Gurevich2016}. Fittingly, the field, and more generally the broad domain of music technology in which it lies, contributes a wide range of outcomes both within and beyond specifically musical applications, such as the development of new technologies for interactive systems \citep{malloch2018generalized} and the advancement of knowledge and theories on technology-mediated artistic performance \citep{Tahlroglu2020}. 
 
-With this work, we were interested to explore a novel method for the design of instruments expressly intended for real-world musical practice. Motivated by previous studies that examined key factors for user engagement \citep{OBrien2008} and long-term use of DMIs in performance \citep[\emph{reference removed for anonymity} (forthcoming), ][]{Wallis2013}, a workshop was held with expert musicians that led to a set of tangible design specifications for new performance DMIs. The workshop applied a user-driven approach to the early ideation stages of instrument development through the use of design fiction \citep{Blythe2014} and non-functional prototyping \citep{Pigrem2018} to inspire novel concepts for the new instruments. 
+With this work, we were interested to explore a novel method for the design of instruments expressly intended for real-world musical practice. Motivated by previous studies that examined key factors for user engagement \citep{OBrien2008} and long-term use of DMIs in performance
+% \citep[\emph{reference removed for anonymity} (forthcoming), ][]{Wallis2013}, 
+\citep{Sullivan2021jnmr,Wallis2013},
+a workshop was held with expert musicians that led to a set of tangible design specifications for new performance DMIs. The workshop applied a user-driven approach to the early ideation stages of instrument development through the use of design fiction \citep{Blythe2014} and non-functional prototyping \citep{Pigrem2018} to inspire novel concepts for the new instruments. 
 
 This article is structured as follows. First, we review motivations and methods for designing novel DMIs, focusing on existing theories and approaches drawn from human-computer interaction (HCI) and human-centered design (HCD). We then introduce the Design for Performance workshops and present results from thematic analysis of the sessions, which resulted in the set of design specifications. Finally, we discuss the potential of a design fiction approach to develop instruments that are viable for uptake and long-term use by expert musicians in real-world performance, and outline future work for robust evaluation of the methods explored.
 
@@ -213,8 +217,9 @@ As the workshop was focused on the design of DMIs for use in live performance an
 
 A call for participation was circulated through local academic and performance community mailing lists that were likely to reach individuals matching our criteria. Interested parties were invited to complete an online prescreening questionnaire. Recruitment lasted for two weeks and 25 responses were received. 15 individuals met the criteria and were invited to participate, of which ten accepted. To accommodate schedules, the workshop was divided into two sessions, with three participants in session A and seven in the session B. 
 
-The workshop activities and procedures were reviewed and approved by the Research Ethics Board Office of {\emph{university name removed for anonymity}}
-% McGill University
+The workshop activities and procedures were reviewed and approved by the Research Ethics Board Office of 
+% {\emph{university name removed for anonymity}}
+McGill University
 and all participants read and signed a form of informed consent before beginning. 
 
 It should be noted that three of the participants were known by the authors. In particular, P09 is an instrumental performer and regular collaborator with the first author. Given the limited size of the local DMI community, we determined that it should not disqualify them from participation if they met the defining criteria.
@@ -223,8 +228,8 @@ It should be noted that three of the participants were known by the authors. In 
 \label{sec:workshop-activities}
 
 A schedule for the workshop had been developed based on Andersen's recommendations to run the workshop at a quick pace and keep a tight timeline. This was found to be an effective strategy to alleviate any potential anxieties or fears of failure that participants could experience during the creative and open-ended design activities \citep{Andersen2017}. The sessions were held on consecutive days in a spacious and well lit conference room at 
-{\emph{location removed for anonymity}}.
-% the Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT) at McGill University. 
+% {\emph{location removed for anonymity}}.
+the Centre for Interdisciplinary Research in Music Media and Technology (CIRMMT) at McGill University. 
 Tables were arranged together so that participants sat around the outside facing each other. A variety of crafting materials was arranged on a separate table and covered with a cloth when the participants arrived. A videocamera was set up to record the sessions.
 
 The first author acted as the facilitator and was aided by the same assistant from the pilot session. Each session began with a welcome and introduction by the facilitator, then participants were asked to briefly introduced themselves and give a short summary of their musical practice and experience with DMIs. 
@@ -358,8 +363,8 @@ Half of the instruments can be classified as alternate instruments, and bear lit
 Four of the remaining five instruments can be identified as either instrument-like or instrument-inspired, taking various elements from existing instruments and repurposing them in different ways. A noticeable trend among this group was to combine the functionalities of several instruments into a single instrument, either to be able to play multiple parts simultaneously like P06's multifunction performance workstation (Figure \ref{fig:presentations_P06}) or to mix them together in creative ways like P02's instrument that would mix and cross-modulate vocals and guitar (Figure \ref{fig:presentations_P02}). 
 
 There was one augmented instrument designed by P09 (Figure \ref{fig:presentations_P09}). This participant is an expert instrumentalist with an advanced degree in performance on her instrument, the concert harp. She has been performing electroacoustic music using harp and various external controllers including custom interfaces designed by the first author 
-(\emph{reference removed for anonymity} 2018)
-% \citep{Sullivan2018}
+% (\emph{reference removed for anonymity} 2018)
+\citep{Sullivan2018}
 and was clear in her needs and priorities as a performer, which was reflected in the pragmatic approach and practical utility of her design. 
 
 \subsection{Key elements, dot voting and discussion}
@@ -441,8 +446,8 @@ Considering the five themes, we make two general observations. First, themes 1 a
 Second, themes 2, 3, and 5 all reflect a desire for flexibility and versatility across a variety of different aspects: control mapping, signal mixing and routing, and modular designs that can be easily configured and changed by the performer. This trend is recognizable in computer and electronic music performance and highlights a strength of digital instruments that have the capacity to change behaviour (e.g., mappings, synthesis algorithms) dynamically through code. 
 
 The balance between novel and conventional design elements and the desire for flexible and versatile instruments support some of the findings from our previous survey on DMI use in performance
-(\emph{reference removed for anonymity} forthcoming).
-% \citep{Sullivan2021jnmr}. 
+% (\emph{reference removed for anonymity} forthcoming).
+\citep{Sullivan2021jnmr}. 
 To the first point, survey respondents showed expressed motivation to experiment with new instruments, sounds, and performance techniques, but were also highly committed to familiar instruments and interactions that are characterized by ownership, embodied performer-instrument connections, and ``muscle memory''. Qualities of flexibility and versatility were highly regarded among respondents as well, and allow for instruments to be customized and combined into elaborate and specific assemblages for a wide range of performance and musical contexts. 
 
 \section{Discussion}
@@ -478,8 +483,8 @@ We also hope that these workshops offer a unique and creative methodology for ea
 
 \section{Acknowledgments}
 
-\noindent \emph{section removed for anonymity}
-% We would like to extend our thanks to Collin Wang, who served as the assistant for the workshops. Thanks also to the Centre for Interdisciplinary Research in Music Media and Technology for the generous funding and facilities to carry out this research.
+% \noindent \emph{section removed for anonymity}
+We would like to extend our thanks to Collin Wang, who served as the assistant for the workshops. Thanks also to the Centre for Interdisciplinary Research in Music Media and Technology for the generous funding and facilities to carry out this research.
 
 
 %%%%%%%%%% END OF MAIN TEXT %%%%%%%%%%%%%%%%%
@@ -489,7 +494,7 @@ We also hope that these workshops offer a unique and creative methodology for ea
 \bibliographystyle{cmj}
 \bibliography{diss_bib}
 
-% \pagebreak
+\pagebreak
 
 \section*{Appendix 1: Workshop Participant Profiles}
 
