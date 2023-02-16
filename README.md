@@ -1,6 +1,8 @@
 # Computer Music Journal submission #306
 
-"From Fiction to Function: Imagining New Instruments Through Design Workshops"
+> ***Note:** This repository contains the original manuscript submission files. The manuscript is conditionally accepted as of Feb 2023 and a separate, new repository contains current revisions for publication: https://github.com/johnnyvenom/2023_CMJ_Fiction2Function_accepted
+
+## "From Fiction to Function: Imagining New Instruments Through Design Workshops"
 
 Authors: 
 
